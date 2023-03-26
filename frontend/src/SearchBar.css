@@ -1,0 +1,136 @@
+.outer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px; /* set a maximum width of 500px */
+    width: 90%; /* set a default width of 90% */
+  }
+
+.select-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.search-options-container {
+display: flex;
+justify-content: center;
+gap: 75px;
+margin-bottom: 50px;
+}
+
+input[type="radio"] {
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+width: 20px;
+height: 20px;
+border-radius: 20%;
+border: 2px solid #555;
+margin-right: 10px;
+cursor: pointer;
+}
+
+input[type="radio"]:checked {
+background-color: #555;
+}
+
+label[for="search-by-name"],
+label[for="search-by-tag"] {
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+color: #555;
+}
+
+.search-input{
+width: 100%;
+height: 70px;
+font-size: 20px;
+border: #9e9e9e;
+border-radius: 5px;
+background-color: #f8f8f8;
+color: #555;
+text-indent: 25px;
+}
+
+.select-input{
+
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #555;
+    text-indent: 25px;
+}
+
+.select-container .react-select__control {
+width: 100%;
+height: 50px;
+border: none;
+border-radius: 5px;
+background-color: #f8f8f8;
+color: #555;
+}
+
+.select-container .react-select__control:focus {
+outline: none;
+box-shadow: 0 0 5px #555;
+}
+
+.select-container .react-select__placeholder {
+color: #aaa;
+}
+
+.select-container .react-select__indicator-separator {
+display: none;
+}
+
+.select-container .react-select__dropdown-indicator {
+color: #555;
+cursor: pointer;
+}
+
+.select-container .react-select__menu {
+width: 100%;
+border: none;
+border-radius: 5px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+background-color: #f8f8f8;
+color: #555;
+}
+
+.select-container .react-select__option {
+cursor: pointer;
+}
+
+.select-container .react-select__option:hover {
+background-color: #ddd;
+}
+
+.submit-button {
+padding: 10px 20px;
+font-size: 20px;
+font-weight: bold;
+color: #fff;
+background-color: blue;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+height: 75px;
+width: 100%;
+margin-top: 50px;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border: 1px solid blue; /* add border */;
+    width: 100%
+  }
+  
