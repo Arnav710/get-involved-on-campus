@@ -16,8 +16,7 @@ app.use(cors());
 mongoose.connect("mongodb+srv://Arnav:PozWW4Dd1M5EKJem@cluster0.c0tz94h.mongodb.net/test", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  connectTimeoutMS: 30000, // increase connect timeout to 30 seconds
-  socketTimeoutMS: 30000, // increase socket timeout to 30 seconds
+  connectTimeoutMS: 40000, // increase connect timeout to 30 seconds
 });
 
 const db = mongoose.connection;

@@ -3,7 +3,6 @@ const Organization = require("../models/Organization");
 module.exports = {
   getOrganizations: async (req, res) => {
     try {
-      res.json({"hello": 1});
       const organizations = await Organization.find();
       res.json(organizations);
     } catch (err) {
