@@ -1,4 +1,4 @@
-.outer {
+.select-container {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
@@ -7,6 +7,30 @@
     max-width: 500px; /* set a maximum width of 500px */
     width: 90%; /* set a default width of 90% */
   }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f2937;
+    text-shadow: 2px 2px #e5e7eb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  
+  
 
 .select-container {
 display: flex;
@@ -22,16 +46,16 @@ margin-bottom: 50px;
 }
 
 input[type="radio"] {
-appearance: none;
--webkit-appearance: none;
--moz-appearance: none;
-width: 20px;
-height: 20px;
-border-radius: 20%;
-border: 2px solid #555;
-margin-right: 10px;
-cursor: pointer;
-}
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  border: 2px solid #555;
+  margin-right: 10px;
+  cursor: pointer;
+  }
 
 input[type="radio"]:checked {
 background-color: #555;
@@ -49,23 +73,21 @@ color: #555;
 width: 100%;
 height: 70px;
 font-size: 20px;
-border: #9e9e9e;
+border: 1px solid #9e9e9e;
 border-radius: 5px;
-background-color: #f8f8f8;
 color: #555;
 text-indent: 25px;
 }
 
 .select-input{
 
-    width: 100%;
-    height: 70px;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f8f8f8;
-    color: #555;
-    text-indent: 25px;
+  width: 100%;
+  height: 70px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #555;
+  
 }
 
 .select-container .react-select__control {
@@ -102,6 +124,7 @@ border-radius: 5px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 background-color: #f8f8f8;
 color: #555;
+padding-left: 20px;
 }
 
 .select-container .react-select__option {
@@ -134,3 +157,12 @@ margin-top: 50px;
     width: 100%
   }
   
+
+.org-list-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.footer{
+  height: 500px;
+}
