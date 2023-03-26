@@ -11,19 +11,27 @@ module.exports = {
   },
   searchByNameAndDescription: async (req, res) => {
     const { queries } = req.body;
-
+  
+    // Join the queries with '|' to create a regular expression
+    const regex = new RegExp(queries.join('|'), 'i');
+  
     try {
       const organizations = await Organization.find({
         $or: [
-          { name: { $in: queries } },
-          { description: { $in: queries } },
+          { name: { $regex: regex } },
+          { description: { $regex: regex } },
         ],
       });
+  
+      console.log(`Found ${organizations.length} organizations`);
+  
       res.json(organizations);
     } catch (err) {
+      console.error(err);
       res.status(500).json({ message: err.message });
     }
-  },
+  },  
+  
   searchByTags: async (req, res) => {
     const { queries } = req.body;
 
