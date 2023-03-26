@@ -13,7 +13,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://Arnav:PozWW4Dd1M5EKJem@cluster0.c0tz94h.mongodb.net/test", {
+mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -36,7 +36,7 @@ app.post("/api/search/tags", organizationsController.searchByTags);
 // upvoting a certain organization by id
 app.put("/api/organizations/:id/upvote", organizationsController.upvoteOrganization);
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
