@@ -22,7 +22,7 @@
         "nlp_tags": [
             "Spiritual",
             "Service and Changemaking",
-            "Cultural."
+            "Cultural"
         ]
     },
     {
@@ -33,9 +33,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Refugee",
-            "Education",
-            "Support."
+            "Refugee Family Backgrounds",
+            "Educational Support",
+            "Educational Resources."
         ]
     },
     {
@@ -74,7 +74,7 @@
         "nlp_tags": [
             "Computer Science",
             "Artificial Intelligence",
-            "Service and Changemaking"
+            "Workshops"
         ]
     },
     {
@@ -86,8 +86,7 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Cybersecurity",
-            "CTF"
+            "Cybersecurity"
         ]
     },
     {
@@ -98,7 +97,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Psychology,Service and Changemaking,Health Professions"
+            "Psychology",
+            "Social",
+            "Health Professions"
         ]
     },
     {
@@ -109,9 +110,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Spiritual",
-            "Service and Changemaking",
-            "Social"
+            "Christianity",
+            "Bible",
+            "College"
         ]
     },
     {
@@ -136,8 +137,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Political Science",
+            "Economics"
         ]
     },
     {
@@ -150,7 +151,7 @@
         "nlp_tags": [
             "Cultural",
             "History",
-            "Social"
+            "Political Science"
         ]
     },
     {
@@ -175,8 +176,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Service and Changemaking",
-            "Cultural"
+            "Artificial Intelligence",
+            "Robotics"
         ]
     },
     {
@@ -200,9 +201,9 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
+            "Computer Science",
             "Service and Changemaking",
-            "Cultural",
-            "Spiritual"
+            "Cultural"
         ]
     },
     {
@@ -239,9 +240,9 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
-            "College/University",
-            "Women",
-            "Social"
+            "Sisterhood",
+            "College",
+            "University"
         ]
     },
     {
@@ -252,7 +253,7 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
-            "Computer Science",
+            "Jewish",
             "Service and Changemaking",
             "Cultural"
         ]
@@ -292,8 +293,8 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Spiritual",
-            "Cultural"
+            "Cultural",
+            "Spiritual"
         ]
     },
     {
@@ -317,9 +318,9 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
-            "Character",
-            "dignity",
-            "scholarship."
+            "Alpha Omicron Pi Women\u2019s Fraternity: Social",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -344,8 +345,8 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Spiritual",
-            "Cultural"
+            "Social",
+            "Spiritual"
         ]
     },
     {
@@ -357,8 +358,8 @@
         ],
         "nlp_tags": [
             "Outdoors",
-            "Environmental Science",
-            "Sustainability"
+            "mountains",
+            "rock climbing"
         ]
     },
     {
@@ -382,9 +383,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Alzheimer's",
-            "Dementia",
-            "Service and Changemaking"
+            "Biology",
+            "Chemistry",
+            "Health Professions"
         ]
     },
     {
@@ -407,8 +408,8 @@
         "tags": [],
         "nlp_tags": [
             "Chemistry",
-            "Biology",
-            "Computer Science"
+            "Earth Science",
+            "Service and Changemaking"
         ]
     },
     {
@@ -432,9 +433,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Chemical engineering",
-            "industry",
-            "career-building"
+            "Chemistry",
+            "Engineering",
+            "Mathematics"
         ]
     },
     {
@@ -446,8 +447,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -458,9 +459,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
-            "Health Professions",
             "Biology",
-            "Chemistry"
+            "Chemistry",
+            "Health Professions"
         ]
     },
     {
@@ -471,9 +472,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Public Health",
+            "Global Health",
             "Model United Nations",
-            "Global Health"
+            "Public Health"
         ]
     },
     {
@@ -484,9 +485,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
-            "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Student organization",
+            "Professional growth",
+            "Future of pharmacy"
         ]
     },
     {
@@ -522,7 +523,7 @@
         "tags": [],
         "nlp_tags": [
             "Anthropology",
-            "Service and Changemaking",
+            "Social",
             "Cultural"
         ]
     },
@@ -535,8 +536,8 @@
         ],
         "nlp_tags": [
             "Art",
-            "Social",
-            "Service and Changemaking"
+            "Music",
+            "Language"
         ]
     },
     {
@@ -546,8 +547,8 @@
         "tags": [],
         "nlp_tags": [
             "Architecture",
-            "urban planning",
-            "computer science"
+            "Urban Planning",
+            "Campus Planning"
         ]
     },
     {
@@ -559,8 +560,8 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Service and Changemaking",
-            "Language"
+            "History",
+            "Armenian"
         ]
     },
     {
@@ -571,8 +572,8 @@
             "Music and Performance"
         ],
         "nlp_tags": [
-            "Cultural",
             "Music",
+            "Cultural",
             "Service and Changemaking"
         ]
     },
@@ -585,8 +586,8 @@
         ],
         "nlp_tags": [
             "Dance",
-            "Cultural",
-            "Social"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -599,7 +600,7 @@
         "nlp_tags": [
             "Asian American",
             "Christian",
-            "Student Organization"
+            "Fellowship"
         ]
     },
     {
@@ -611,8 +612,8 @@
         ],
         "nlp_tags": [
             "Asian American",
-            "community",
-            "volunteer"
+            "Community",
+            "Volunteer"
         ]
     },
     {
@@ -623,9 +624,9 @@
             "Student Affirmative Actions Committee"
         ],
         "nlp_tags": [
-            "API",
-            "Student",
-            "Organization"
+            "Asian and Pacific-Islander Student Alliance: Cultural",
+            "Social",
+            "Political Science"
         ]
     },
     {
@@ -648,8 +649,8 @@
         ],
         "nlp_tags": [
             "ASL",
-            "Deaf culture",
-            "American Sign Language"
+            "Deaf",
+            "Hard-of-Hearing"
         ]
     },
     {
@@ -661,8 +662,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Service and Changemaking",
-            "Cultural"
+            "Mathematics",
+            "Engineering"
         ]
     },
     {
@@ -673,9 +674,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "math",
-            "computer science",
-            "psychology"
+            "Math",
+            "Computer Science",
+            "Engineering"
         ]
     },
     {
@@ -684,9 +685,9 @@
         "description": "Specific goals for this chapter are to \r\n   1. build community for women in mathematics, \r\n   2. provide mentorship for UCSD\u2019s women in mathematics,\r\n   3. attract more diverse candidates to our graduate programs, and\r\n   4. create and maintain connections with other chapters of AWM. \r\nWe believe achieving our goals will directly and positively impact our ability to support, retain, and attract talented women in our mathematics programs.",
         "tags": [],
         "nlp_tags": [
-            "Computer Science",
             "Math",
-            "Economics"
+            "Computer Science",
+            "Engineering"
         ]
     },
     {
@@ -697,9 +698,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
+            "Health Professions",
             "Pharmacy",
-            "Education",
-            "Community Service"
+            "Biology"
         ]
     },
     {
@@ -712,7 +713,7 @@
         "nlp_tags": [
             "Sports",
             "Service and Changemaking",
-            "Cultural"
+            "Social"
         ]
     },
     {
@@ -725,7 +726,7 @@
         "nlp_tags": [
             "Spiritual",
             "Service and Changemaking",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -738,7 +739,7 @@
         "nlp_tags": [
             "Dance",
             "Cultural",
-            "Service and Changemaking"
+            "Social"
         ]
     },
     {
@@ -749,9 +750,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Service and Changemaking",
-            "Social"
+            "Bangali",
+            "cultural",
+            "social"
         ]
     },
     {
@@ -763,8 +764,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -789,7 +790,7 @@
         ],
         "nlp_tags": [
             "Psychology",
-            "Service and Changemaking",
+            "Social",
             "Spiritual"
         ]
     },
@@ -802,8 +803,8 @@
         ],
         "nlp_tags": [
             "Finance",
-            "Computer Science",
-            "Economics"
+            "Business and Management",
+            "Accounting"
         ]
     },
     {
@@ -816,7 +817,7 @@
         "nlp_tags": [
             "Biology",
             "Chemistry",
-            "Computer Science"
+            "Earth Science"
         ]
     },
     {
@@ -827,9 +828,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Biology",
+            "Chemistry",
+            "Health Professions"
         ]
     },
     {
@@ -840,9 +841,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Mental disorders",
-            "social",
-            "service and changemaking."
+            "Psychology",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -852,8 +853,8 @@
         "tags": [],
         "nlp_tags": [
             "Bioengineering",
-            "Graduate School",
-            "Student Organization"
+            "Chemistry",
+            "Biology"
         ]
     },
     {
@@ -864,7 +865,7 @@
         "nlp_tags": [
             "Biology",
             "Chemistry",
-            "Earth Science"
+            "Health Professions"
         ]
     },
     {
@@ -890,7 +891,7 @@
         "nlp_tags": [
             "Biology",
             "Chemistry",
-            "Computer Science"
+            "Health Professions"
         ]
     },
     {
@@ -924,8 +925,8 @@
         ],
         "nlp_tags": [
             "Black Student Union",
-            "UCSD",
-            "academic excellence"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -937,8 +938,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Finance",
-            "Engineering"
+            "Blockchain",
+            "Finance"
         ]
     },
     {
@@ -949,9 +950,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Biology",
-            "Chemistry"
+            "Computer Science",
+            "Math",
+            "Psychology"
         ]
     },
     {
@@ -964,7 +965,7 @@
         "nlp_tags": [
             "Sustainability",
             "Service and Changemaking",
-            "Environmental Science"
+            "Social"
         ]
     },
     {
@@ -977,7 +978,7 @@
         "nlp_tags": [
             "Dance",
             "Music",
-            "Sports"
+            "Service and Changemaking"
         ]
     },
     {
@@ -988,9 +989,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Border Issues",
             "Service and Changemaking",
-            "Cultural",
-            "Language"
+            "Cultural"
         ]
     },
     {
@@ -1001,9 +1002,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Spiritual."
+            "Food Science",
+            "Chemistry",
+            "Service and Changemaking"
         ]
     },
     {
@@ -1038,9 +1039,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Environmental Science",
+            "Environment Science",
             "Sustainability",
-            "Biology"
+            "Service and Changemaking"
         ]
     },
     {
@@ -1051,9 +1052,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
-            "health professions",
-            "computer science",
-            "service and changemaking"
+            "Health Professions",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -1066,7 +1067,7 @@
         "nlp_tags": [
             "Cultural",
             "Service and Changemaking",
-            "Social"
+            "Language"
         ]
     },
     {
@@ -1078,8 +1079,8 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Cancer",
-            "Summer Camp"
+            "Cultural",
+            "Health Professions"
         ]
     },
     {
@@ -1117,8 +1118,8 @@
         ],
         "nlp_tags": [
             "Cancer",
-            "Student organization",
-            "Pan-Asian community"
+            "Biology",
+            "Chemistry"
         ]
     },
     {
@@ -1129,9 +1130,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Cannabis",
-            "community",
-            "advocacy."
+            "Cannaclub at UC San Diego: Cannabis",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -1156,7 +1157,7 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Art",
+            "Service and Changemaking",
             "Dance"
         ]
     },
@@ -1168,9 +1169,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Social."
+            "Court Appointed Special Advocate",
+            "Children",
+            "Foster Care"
         ]
     },
     {
@@ -1182,8 +1183,8 @@
         ],
         "nlp_tags": [
             "Catholic",
-            "service and changemaking",
-            "spiritual"
+            "Hospitality",
+            "Gospel"
         ]
     },
     {
@@ -1194,9 +1195,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Community service",
-            "spiritual",
-            "cultural."
+            "Community Service",
+            "Spiritual",
+            "Service and Changemaking"
         ]
     },
     {
@@ -1207,9 +1208,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Computer Science",
+            "Spiritual",
             "Service and Changemaking",
-            "Spiritual"
+            "Cultural"
         ]
     },
     {
@@ -1218,9 +1219,9 @@
         "description": "The Challenger Research Journal Committee (CRJC) aims to further the access and representation of underrepresented students through the dissemination of research produced by scholars participating in the Undergraduate Research Hub programs at UC San Diego. The purpose of the CRJC is to organize, implement, and maintain a scholarly research journal that represents diverse perspectives across multiple fields of study.",
         "tags": [],
         "nlp_tags": [
-            "Computer Science",
-            "Art",
-            "History"
+            "research",
+            "underrepresented students",
+            "journal"
         ]
     },
     {
@@ -1233,7 +1234,7 @@
         "nlp_tags": [
             "Service and Changemaking",
             "Social",
-            "Spiritual."
+            "Cultural"
         ]
     },
     {
@@ -1244,9 +1245,9 @@
             "Cooperative"
         ],
         "nlp_tags": [
-            "Do It Yourself",
-            "vegan",
-            "resource center for radical grassroots activists."
+            "Environmental Science",
+            "Sustainability",
+            "Biology"
         ]
     },
     {
@@ -1259,7 +1260,7 @@
         "nlp_tags": [
             "Cheese",
             "Social",
-            "Biology"
+            "Cultural"
         ]
     },
     {
@@ -1282,7 +1283,7 @@
         "tags": [],
         "nlp_tags": [
             "Chemistry",
-            "Social",
+            "Service and Changemaking",
             "Cultural"
         ]
     },
@@ -1296,7 +1297,7 @@
         "nlp_tags": [
             "Chess",
             "Sports",
-            "Computer Science"
+            "Service and Changemaking"
         ]
     },
     {
@@ -1307,9 +1308,9 @@
             "Greek Sorority"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Social",
-            "Service and Changemaking"
+            "Asian American Studies",
+            "Cultural Studies",
+            "Women's Studies"
         ]
     },
     {
@@ -1346,9 +1347,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Chinese Business Society",
-            "Career Development",
-            "Future Planning."
+            "Business and Management",
+            "Language",
+            "Math"
         ]
     },
     {
@@ -1361,7 +1362,7 @@
         "nlp_tags": [
             "Computer Science",
             "Business and Management",
-            "Engineering"
+            "Technology"
         ]
     },
     {
@@ -1372,9 +1373,9 @@
             "Dance"
         ],
         "nlp_tags": [
-            "Dance",
             "Cultural",
-            "Service and Changemaking"
+            "Dance",
+            "Social"
         ]
     },
     {
@@ -1385,9 +1386,9 @@
             "Music and Performance"
         ],
         "nlp_tags": [
-            "Theatre",
-            "Art",
-            "Drama"
+            "Drama",
+            "Acting",
+            "Directing"
         ]
     },
     {
@@ -1398,8 +1399,8 @@
             "Educational"
         ],
         "nlp_tags": [
+            "Chinese Engineering Society: Engineering",
             "Computer Science",
-            "Engineering",
             "Business and Management"
         ]
     },
@@ -1411,9 +1412,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Chinese culture",
-            "college life",
-            "student community"
+            "Chinese Culture",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -1424,9 +1425,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Chinese Students and Scholars Association",
-            "UC San Diego",
-            "Student Organizations"
+            "Computer Science",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -1438,8 +1439,8 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Service and Changemaking",
-            "Social"
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -1450,8 +1451,8 @@
             "Media"
         ],
         "nlp_tags": [
+            "Gender Studies",
             "Feminism",
-            "China",
             "Women's Rights"
         ]
     },
@@ -1476,9 +1477,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
+            "Health Professions",
             "Spiritual",
-            "Service and Changemaking",
-            "Social"
+            "Service and Changemaking"
         ]
     },
     {
@@ -1489,9 +1490,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Christian",
-            "Fellowship",
-            "UCSD"
+            "Spiritual",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -1502,9 +1503,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Community service",
-            "leadership",
-            "fellowship."
+            "Service and Changemaking",
+            "Computer Science",
+            "Economics"
         ]
     },
     {
@@ -1516,8 +1517,8 @@
         ],
         "nlp_tags": [
             "Environmental Science",
-            "Sustainability",
-            "Biology"
+            "Climate Change",
+            "Student Organization"
         ]
     },
     {
@@ -1541,9 +1542,9 @@
             "Social"
         ],
         "nlp_tags": [
+            "Climbing",
             "Sports",
-            "Service and Changemaking",
-            "Cultural"
+            "Service and Changemaking"
         ]
     },
     {
@@ -1554,9 +1555,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Club Golf",
             "Sports",
-            "Spiritual"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -1565,9 +1566,9 @@
         "description": "Represent one of UCSD's fastest-growing intellectual communities, serve as an inclusive academic, professional, and social resource for the cognitive science student body, and engage the undergraduate population and faculty of the Cognitive Science department.",
         "tags": [],
         "nlp_tags": [
+            "Cognitive Science",
             "Computer Science",
-            "Psychology",
-            "Economics"
+            "Psychology"
         ]
     },
     {
@@ -1579,8 +1580,8 @@
         ],
         "nlp_tags": [
             "Political Science",
-            "Economics",
-            "Biology"
+            "Social",
+            "Economics"
         ]
     },
     {
@@ -1591,9 +1592,9 @@
             "Political"
         ],
         "nlp_tags": [
-            "Politics",
-            "community service",
-            "leadership"
+            "Political Science",
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -1604,9 +1605,10 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Cancer",
-            "Education",
-            "Advocacy."
+            "Cancer Education",
+            "Advocacy",
+            "Relay For Life",
+            "Survivorship"
         ]
     },
     {
@@ -1618,8 +1620,8 @@
         ],
         "nlp_tags": [
             "Sales",
-            "Networking",
-            "Leadership"
+            "Service and Changemaking",
+            "Business and Management"
         ]
     },
     {
@@ -1643,9 +1645,9 @@
             "Music and Performance"
         ],
         "nlp_tags": [
+            "Theatre",
             "Art",
-            "History",
-            "Cultural"
+            "Student Organization"
         ]
     },
     {
@@ -1656,9 +1658,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Math",
-            "Economics"
+            "Mathematical modeling",
+            "computer science",
+            "service and changemaking."
         ]
     },
     {
@@ -1668,8 +1670,7 @@
         "tags": [],
         "nlp_tags": [
             "Computer Science",
-            "Engineering",
-            "Service and Changemaking."
+            "Engineering"
         ]
     },
     {
@@ -1680,9 +1681,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Environmental Science",
-            "Agriculture",
-            "Sustainability"
+            "Cooking",
+            "Nutrition",
+            "Food Science"
         ]
     },
     {
@@ -1706,9 +1707,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Biology",
-            "Chemistry",
-            "Computer Science"
+            "Computer Science",
+            "Business and Management",
+            "Finance"
         ]
     },
     {
@@ -1721,7 +1722,7 @@
         "nlp_tags": [
             "Creative Writing",
             "Peer Advice",
-            "No Genre Limitations"
+            "Writing"
         ]
     },
     {
@@ -1747,7 +1748,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Education"
+            "Cultural"
         ]
     },
     {
@@ -1760,7 +1761,7 @@
         "nlp_tags": [
             "Dance",
             "Cultural",
-            "Music"
+            "Service and Changemaking"
         ]
     },
     {
@@ -1785,8 +1786,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Mathematics",
-            "Economics"
+            "Data Science",
+            "Mathematics"
         ]
     },
     {
@@ -1810,9 +1811,9 @@
             "Music and Performance"
         ],
         "nlp_tags": [
+            "Computer Science",
             "Music",
-            "Service and Changemaking",
-            "Cultural"
+            "Service and Changemaking"
         ]
     },
     {
@@ -1824,8 +1825,8 @@
         ],
         "nlp_tags": [
             "Car Culture",
-            "Student Organization",
-            "Triton Spirit"
+            "Triton Spirit",
+            "Service and Changemaking"
         ]
     },
     {
@@ -1836,9 +1837,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Business and Management",
-            "Psychology"
+            "Disabilities",
+            "Students",
+            "Organization"
         ]
     },
     {
@@ -1875,9 +1876,9 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
+            "Delta Gamma: Social",
             "Cultural",
-            "Social"
+            "Service and Changemaking"
         ]
     },
     {
@@ -1889,8 +1890,8 @@
         ],
         "nlp_tags": [
             "Business and Management",
-            "Computer Science",
-            "Economics"
+            "Economics",
+            "Language"
         ]
     },
     {
@@ -1903,7 +1904,7 @@
         "nlp_tags": [
             "Computer Science",
             "Art",
-            "Service and Changemaking"
+            "Design"
         ]
     },
     {
@@ -1914,9 +1915,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Art",
-            "Service and Changemaking"
+            "Design",
+            "Community",
+            "Creative Thinking"
         ]
     },
     {
@@ -1928,8 +1929,8 @@
         ],
         "nlp_tags": [
             "Engineering",
-            "Computer Science",
-            "Mathematics"
+            "AIAA",
+            "Flight"
         ]
     },
     {
@@ -1953,9 +1954,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Service and Changemaking",
-            "Social"
+            "Discord",
+            "UCSD",
+            "Student organization"
         ]
     },
     {
@@ -1965,8 +1966,8 @@
         "tags": [],
         "nlp_tags": [
             "Computer Science",
-            "Service and Changemaking",
-            "Cultural"
+            "Data Science",
+            "Diversity"
         ]
     },
     {
@@ -1990,9 +1991,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Earth Science",
-            "Engineering",
-            "Environmental Science"
+            "Earthquake Engineering",
+            "Environmental Science",
+            "Engineering"
         ]
     },
     {
@@ -2014,7 +2015,7 @@
         "nlp_tags": [
             "Computer Science",
             "Engineering",
-            "Service and Changemaking"
+            "Mathematics"
         ]
     },
     {
@@ -2025,9 +2026,13 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Environmental Science",
+            "Ecology",
+            "Behavior & Evolution",
             "Biology",
-            "Chemistry"
+            "Earth Science",
+            "Chemistry",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -2039,8 +2044,8 @@
         ],
         "nlp_tags": [
             "Education",
-            "Social",
-            "Service and Changemaking"
+            "Student Organizations",
+            "Professional Networking"
         ]
     },
     {
@@ -2053,7 +2058,7 @@
         "nlp_tags": [
             "Emergency Medical Services",
             "CPR",
-            "UCSD"
+            "Health Professions"
         ]
     },
     {
@@ -2077,9 +2082,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Computer Science",
+            "Health Professions",
             "Service and Changemaking",
-            "Health Professions"
+            "Cultural"
         ]
     },
     {
@@ -2091,8 +2096,8 @@
         ],
         "nlp_tags": [
             "Engineering",
-            "Biology",
-            "Chemistry"
+            "World Health",
+            "Healthcare"
         ]
     },
     {
@@ -2116,9 +2121,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Engineering",
+            "Engineers Without Borders",
             "Service and Changemaking",
-            "Sustainability"
+            "Computer Science"
         ]
     },
     {
@@ -2131,7 +2136,7 @@
         "nlp_tags": [
             "Engineering",
             "Visual Arts",
-            "maker studios"
+            "Computer Science"
         ]
     },
     {
@@ -2144,7 +2149,7 @@
         "nlp_tags": [
             "Cultural",
             "Service and Changemaking",
-            "Social"
+            "Language"
         ]
     },
     {
@@ -2155,7 +2160,7 @@
         "nlp_tags": [
             "Computer Science",
             "Engineering",
-            "Service and Changemaking"
+            "Mathematics"
         ]
     },
     {
@@ -2168,7 +2173,7 @@
         "nlp_tags": [
             "Business and Management",
             "Computer Science",
-            "Engineering"
+            "Mathematics"
         ]
     },
     {
@@ -2179,9 +2184,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
             "Spiritual",
-            "Cultural"
+            "Service and Changemaking",
+            "Language"
         ]
     },
     {
@@ -2194,7 +2199,7 @@
         "nlp_tags": [
             "Sports",
             "Health Professions",
-            "Service and Changemaking"
+            "Biology"
         ]
     },
     {
@@ -2205,9 +2210,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Falun Dafa",
-            "Persecution",
-            "Organ Harvesting"
+            "Cultural",
+            "Spiritual",
+            "Service and Changemaking"
         ]
     },
     {
@@ -2219,8 +2224,8 @@
         ],
         "nlp_tags": [
             "Sports",
-            "Social",
-            "Service and Changemaking."
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -2232,8 +2237,8 @@
         ],
         "nlp_tags": [
             "First Generation Student Alliance",
-            "Community",
-            "Opportunity"
+            "Service and Changemaking",
+            "Cultural."
         ]
     },
     {
@@ -2244,9 +2249,9 @@
             "Music and Performance"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Service and Changemaking",
-            "Spiritual"
+            "Chinese Culture",
+            "Performing Arts",
+            "Communication"
         ]
     },
     {
@@ -2257,9 +2262,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
+            "Medical",
             "Service and Changemaking",
-            "Cultural",
-            "Health Professions"
+            "Cultural"
         ]
     },
     {
@@ -2270,9 +2275,9 @@
             "Cooperative"
         ],
         "nlp_tags": [
-            "Agriculture",
-            "Environmental Science",
-            "Sustainability"
+            "Food Cooperative",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -2283,9 +2288,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Environmental Science",
             "Biology",
-            "Chemistry"
+            "Chemistry",
+            "Health Professions"
         ]
     },
     {
@@ -2310,8 +2315,8 @@
         ],
         "nlp_tags": [
             "Spiritual",
-            "Cultural",
-            "Service and Changemaking."
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -2322,9 +2327,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Public health",
+            "Public Health",
             "Medical",
-            "Internship program"
+            "Student Organization"
         ]
     },
     {
@@ -2335,9 +2340,9 @@
             "Music and Performance"
         ],
         "nlp_tags": [
-            "Art",
             "Theater",
-            "Chinese Culture"
+            "Chinese Culture",
+            "Art"
         ]
     },
     {
@@ -2361,9 +2366,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Card games",
+            "Card Games",
             "Yugioh",
-            "media"
+            "Social"
         ]
     },
     {
@@ -2374,7 +2379,9 @@
             "Greek Fraternity"
         ],
         "nlp_tags": [
-            "Computer Science",
+            "Biology",
+            "Chemistry",
+            "Earth Science",
             "Service and Changemaking",
             "Cultural"
         ]
@@ -2385,9 +2392,9 @@
         "description": "Gender Minorities in Bioengineering at UC San Diego is a non-profit, student-run organization committed to advancing the academic and professional careers of women and other marginalized genders in bioengineering at the undergraduate, graduate, and post-doctoral-levels. Our mission is to promote diversity within the scientific community by facilitating events that strengthen the involvement of marginalized genders in STEM. We generate opportunities to best serve the interests of our members and the broader community so that we can shape a more diverse future.",
         "tags": [],
         "nlp_tags": [
-            "Computer Science",
-            "Engineering",
-            "Biology"
+            "Biology",
+            "Chemistry",
+            "Computer Science"
         ]
     },
     {
@@ -2424,7 +2431,7 @@
             "Social"
         ],
         "nlp_tags": [
-            "Sports",
+            "Girl Gains: Social",
             "Service and Changemaking",
             "Cultural"
         ]
@@ -2439,7 +2446,7 @@
         "nlp_tags": [
             "Service and Changemaking",
             "Cultural",
-            "Health Professions"
+            "Language"
         ]
     },
     {
@@ -2450,9 +2457,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Global Medical Brigades (GMB): Service and Changemaking",
             "Health Professions",
-            "Service and Changemaking",
-            "Sustainability"
+            "Social"
         ]
     },
     {
@@ -2463,9 +2470,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Health Professions",
             "Spiritual",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Health Professions"
         ]
     },
     {
@@ -2491,7 +2498,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Math"
+            "Cultural"
         ]
     },
     {
@@ -2503,7 +2510,7 @@
         ],
         "nlp_tags": [
             "LGBTQIA+",
-            "STEM",
+            "Science",
             "Service and Changemaking"
         ]
     },
@@ -2530,7 +2537,7 @@
         "nlp_tags": [
             "Spiritual",
             "Service and Changemaking",
-            "Cultural."
+            "Cultural"
         ]
     },
     {
@@ -2539,9 +2546,9 @@
         "description": "To build a relationship between students and the department of NanoEngineering",
         "tags": [],
         "nlp_tags": [
-            "NanoEngineering",
-            "Computer Science",
-            "Engineering"
+            "Nanoengineering",
+            "Engineering",
+            "Computer Science"
         ]
     },
     {
@@ -2553,8 +2560,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Service and Changemaking",
-            "Cultural"
+            "Mathematics",
+            "Engineering"
         ]
     },
     {
@@ -2564,8 +2571,8 @@
         "tags": [],
         "nlp_tags": [
             "Chemistry",
-            "Computer Science",
-            "Service and Changemaking"
+            "Biology",
+            "Computer Science"
         ]
     },
     {
@@ -2602,9 +2609,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Mathematics",
-            "Psychology"
+            "Mental Health",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -2617,7 +2624,7 @@
         "nlp_tags": [
             "Hawaiian culture",
             "service and changemaking",
-            "social."
+            "spiritual"
         ]
     },
     {
@@ -2628,9 +2635,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
             "Health Professions",
-            "Social"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -2655,8 +2662,9 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Service and Changemaking",
-            "Cultural"
+            "Biology",
+            "Chemistry",
+            "Service and Changemaking"
         ]
     },
     {
@@ -2669,7 +2677,7 @@
         "nlp_tags": [
             "Public Health",
             "Service and Changemaking",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -2681,8 +2689,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -2707,8 +2715,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Pre-Health",
-            "Peer Mentorship"
+            "Peer Mentor Program",
+            "Pre-health"
         ]
     },
     {
@@ -2745,9 +2753,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Health Professions",
-            "Service and Changemaking",
-            "Cultural"
+            "Hearts for the Homeless (H4H) San Diego: Service and Changemaking",
+            "Cultural",
+            "Health Professions."
         ]
     },
     {
@@ -2758,9 +2766,9 @@
             "Media"
         ],
         "nlp_tags": [
-            "Communications",
-            "Media",
-            "Event Planning"
+            "Computer Science",
+            "Art",
+            "History"
         ]
     },
     {
@@ -2771,9 +2779,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Latina/Chicana",
-            "leadership",
-            "community service"
+            "Latina/Chicana students",
+            "leadership opportunities",
+            "resources"
         ]
     },
     {
@@ -2784,9 +2792,9 @@
             "Cultural"
         ],
         "nlp_tags": [
+            "Hermanos Unidos de UC San Diego: Social",
             "Service and Changemaking",
-            "Cultural",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -2797,9 +2805,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Community service",
-            "changemaking",
-            "cultural."
+            "Service and Changemaking",
+            "Cultural",
+            "Social"
         ]
     },
     {
@@ -2811,8 +2819,8 @@
         ],
         "nlp_tags": [
             "Environmental Science",
-            "Sustainability",
-            "Biology"
+            "Hiking",
+            "Nature"
         ]
     },
     {
@@ -2824,8 +2832,8 @@
         ],
         "nlp_tags": [
             "Spiritual",
-            "Service and Changemaking",
-            "Cultural"
+            "Cultural",
+            "Service and Changemaking"
         ]
     },
     {
@@ -2836,8 +2844,8 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
             "Health Professions",
+            "Service and Changemaking",
             "Social"
         ]
     },
@@ -2862,9 +2870,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Presbyterian",
-            "Church",
-            "Campus"
+            "Computer Science",
+            "Service and Changemaking",
+            "Spiritual"
         ]
     },
     {
@@ -2877,7 +2885,7 @@
         "nlp_tags": [
             "Service and Changemaking",
             "Cultural",
-            "Spiritual."
+            "Social"
         ]
     },
     {
@@ -2889,8 +2897,8 @@
         ],
         "nlp_tags": [
             "Music",
-            "Social",
-            "Service and Changemaking"
+            "Saxophone",
+            "Performance"
         ]
     },
     {
@@ -2903,7 +2911,7 @@
         "nlp_tags": [
             "Service and Changemaking",
             "Cultural",
-            "Spiritual."
+            "Social"
         ]
     },
     {
@@ -2913,8 +2921,8 @@
         "tags": [],
         "nlp_tags": [
             "Human Development",
-            "Student Association",
-            "Research"
+            "Psychology",
+            "Service and Changemaking"
         ]
     },
     {
@@ -2926,8 +2934,8 @@
         ],
         "nlp_tags": [
             "Engineering",
-            "Teamwork",
-            "Submarines"
+            "Team Communication",
+            "Critical Thinking"
         ]
     },
     {
@@ -2939,8 +2947,8 @@
         ],
         "nlp_tags": [
             "Iaido",
-            "Japanese swordsmanship",
-            "service and changemaking"
+            "Japan",
+            "Swordsmanship"
         ]
     },
     {
@@ -2977,9 +2985,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
-            "Health Professions",
-            "Service and Changemaking",
-            "Cultural"
+            "Optometry",
+            "Biology",
+            "Chemistry"
         ]
     },
     {
@@ -3016,9 +3024,9 @@
             "Social"
         ],
         "nlp_tags": [
+            "Computer Science",
             "Service and Changemaking",
-            "Cultural",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -3042,9 +3050,9 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Business and Management",
-            "Engineering"
+            "Fraternities",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -3055,7 +3063,7 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
+            "Intergenerational Connections: Service and Changemaking",
             "Cultural",
             "Social"
         ]
@@ -3068,9 +3076,9 @@
             "Music and Performance"
         ],
         "nlp_tags": [
+            "Music",
             "Computer Science",
-            "Art",
-            "Music"
+            "Art"
         ]
     },
     {
@@ -3107,9 +3115,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Health Professions"
+            "Health Professions",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -3120,9 +3128,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Biology",
             "Chemistry",
-            "Earth Science"
+            "Biology",
+            "Health Professions"
         ]
     },
     {
@@ -3157,9 +3165,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Women's reproductive education",
-            "women's health",
-            "menstrual health"
+            "Biology",
+            "Chemistry",
+            "Health Professions"
         ]
     },
     {
@@ -3170,8 +3178,8 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Intersectional Health Project",
-            "Social",
+            "Biology",
+            "Chemistry",
             "Health Professions"
         ]
     },
@@ -3185,7 +3193,7 @@
         "nlp_tags": [
             "Sustainability",
             "Environmental Science",
-            "Agriculture"
+            "Service and Changemaking"
         ]
     },
     {
@@ -3209,9 +3217,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "It\u2019s On Us at UC San Diego: Sexual Assault Awareness",
-            "Survivor Support",
-            "Bystander Intervention"
+            "Computer Science",
+            "Service and Changemaking",
+            "Language"
         ]
     },
     {
@@ -3235,9 +3243,7 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Engineering",
-            "Computer Science",
-            "Mathematics"
+            "Engineering,Computer Science,Math"
         ]
     },
     {
@@ -3248,9 +3254,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Japanese",
-            "Culture",
-            "UC San Diego"
+            "Japanese Student Association",
+            "Cultural",
+            "Language"
         ]
     },
     {
@@ -3261,9 +3267,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Jewish",
-            "Graduate students",
-            "Prayer"
+            "Jewish Studies",
+            "Social",
+            "Cultural"
         ]
     },
     {
@@ -3276,7 +3282,7 @@
         "nlp_tags": [
             "Cultural",
             "Service and Changemaking",
-            "Spiritual"
+            "Pilipino/a"
         ]
     },
     {
@@ -3301,8 +3307,8 @@
         ],
         "nlp_tags": [
             "Law",
-            "Fraternity",
-            "Service"
+            "Service and Changemaking",
+            "Social."
         ]
     },
     {
@@ -3313,9 +3319,9 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
-            "social",
-            "service and changemaking",
-            "cultural"
+            "Computer Science",
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -3326,7 +3332,7 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
-            "Computer Science",
+            "Spiritual",
             "Service and Changemaking",
             "Cultural"
         ]
@@ -3353,8 +3359,8 @@
         ],
         "nlp_tags": [
             "Sisterhood",
-            "Friendship",
-            "Development"
+            "Attitudes and Ideals",
+            "Service and Changemaking"
         ]
     },
     {
@@ -3365,9 +3371,9 @@
             "Martial Arts/Combatives/Weaponry"
         ],
         "nlp_tags": [
-            "Sports",
-            "Cultural",
-            "Service and Changemaking"
+            "Kendo",
+            "Japan",
+            "Martial Arts"
         ]
     },
     {
@@ -3380,7 +3386,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -3417,9 +3423,9 @@
             "Media"
         ],
         "nlp_tags": [
-            "Humor",
-            "Satire",
-            "Publication"
+            "Computer Science",
+            "Economics",
+            "Service and Changemaking"
         ]
     },
     {
@@ -3441,8 +3447,8 @@
         "description": "Kommon Society is a student organization for Korean and Korean-American undergraduate students with social science majors. Kommon Society aims to establish an academic environment among Korean and Korean-American students with Social Science majors, facilitate a mutually beneficial network among students with the same majors and career goals\r\nprovide opportunities for various academic and professional experiences to prepare each individual's future, and promote interest in contemporary global issues throughout the campus.",
         "tags": [],
         "nlp_tags": [
-            "Computer Science",
-            "Business and Management",
+            "Social",
+            "Political Science",
             "Economics"
         ]
     },
@@ -3469,7 +3475,7 @@
         "nlp_tags": [
             "Computer Science",
             "Engineering",
-            "Mathematics."
+            "Math"
         ]
     },
     {
@@ -3480,9 +3486,9 @@
             "Social"
         ],
         "nlp_tags": [
+            "Korean American Student Association",
             "Cultural",
-            "Social",
-            "Service and Changemaking."
+            "Social"
         ]
     },
     {
@@ -3495,7 +3501,7 @@
         "nlp_tags": [
             "Sports",
             "Service and Changemaking",
-            "Cultural"
+            "Social"
         ]
     },
     {
@@ -3507,8 +3513,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Business and Management",
-            "Engineering"
+            "Engineering",
+            "Mathematics"
         ]
     },
     {
@@ -3519,9 +3525,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Service and Changemaking",
-            "Social"
+            "Korean Student Cultural Association",
+            "Social",
+            "Cultural."
         ]
     },
     {
@@ -3533,7 +3539,7 @@
         ],
         "nlp_tags": [
             "Dance",
-            "Music",
+            "Cultural",
             "Social"
         ]
     },
@@ -3545,9 +3551,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Christianity",
-            "college students",
-            "outreach"
+            "Biology",
+            "Chemistry",
+            "Earth Science"
         ]
     },
     {
@@ -3559,8 +3565,8 @@
         ],
         "nlp_tags": [
             "Dance",
-            "Music",
-            "Cultural"
+            "Cultural",
+            "Social"
         ]
     },
     {
@@ -3572,8 +3578,8 @@
         ],
         "nlp_tags": [
             "Dance",
-            "Social",
-            "Cultural"
+            "Cultural",
+            "Social"
         ]
     },
     {
@@ -3597,9 +3603,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Math",
-            "Psychology"
+            "Latinx",
+            "Cultural",
+            "Service and Changemaking"
         ]
     },
     {
@@ -3611,8 +3617,8 @@
         ],
         "nlp_tags": [
             "Environmental Science",
-            "Sustainability",
-            "Biology"
+            "Biology",
+            "Chemistry"
         ]
     },
     {
@@ -3623,9 +3629,9 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
-            "social",
-            "greek",
-            "fraternity"
+            "Lambda Chi Alpha: Social",
+            "Spiritual",
+            "Service and Changemaking"
         ]
     },
     {
@@ -3636,8 +3642,8 @@
             "Greek Sorority"
         ],
         "nlp_tags": [
-            "Leadership",
-            "Social",
+            "Lambda Theta Alpha",
+            "Service and Changemaking",
             "Cultural"
         ]
     },
@@ -3649,9 +3655,10 @@
             "Greek Sorority"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Social"
+            "Lambda Theta Nu Sorority",
+            "Inc.\n\nLatinas",
+            "higher education",
+            "community service."
         ]
     },
     {
@@ -3674,8 +3681,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Sports",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -3686,9 +3693,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Social",
-            "Service and Changemaking"
+            "Lebanese culture",
+            "UCSD community",
+            "service and changemaking"
         ]
     },
     {
@@ -3699,9 +3706,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Spiritual."
+            "Biology",
+            "Chemistry",
+            "Health Professions"
         ]
     },
     {
@@ -3753,7 +3760,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Math"
+            "Cultural"
         ]
     },
     {
@@ -3775,9 +3782,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Psychology",
+            "Service and Changemaking",
+            "Health Professions"
         ]
     },
     {
@@ -3789,8 +3796,8 @@
         ],
         "nlp_tags": [
             "Business and Management",
-            "Engineering",
-            "Computer Science"
+            "Computer Science",
+            "Economics"
         ]
     },
     {
@@ -3814,9 +3821,8 @@
             "Social"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Finance",
-            "Service and Changemaking"
+            "Card games",
+            "Student organizations"
         ]
     },
     {
@@ -3842,7 +3848,7 @@
         "nlp_tags": [
             "Cultural",
             "Music",
-            "History"
+            "Language"
         ]
     },
     {
@@ -3853,9 +3859,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Sports",
-            "Service and Changemaking",
-            "Cultural"
+            "Marksmanship",
+            "Club",
+            "UCSD"
         ]
     },
     {
@@ -3867,8 +3873,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "History"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -3878,8 +3884,8 @@
         "tags": [],
         "nlp_tags": [
             "Math",
-            "Computer Science",
-            "Economics"
+            "Economics",
+            "Computer Science"
         ]
     },
     {
@@ -3892,7 +3898,7 @@
         "nlp_tags": [
             "Art",
             "History",
-            "Computer Science"
+            "Language"
         ]
     },
     {
@@ -3904,8 +3910,8 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Health Professions",
-            "Social"
+            "Cultural",
+            "Health Professions"
         ]
     },
     {
@@ -3916,9 +3922,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "M.E.N.A.S.A.: Cultural",
-            "Social",
-            "Service and Changemaking"
+            "Middle Eastern and North African Studies",
+            "Cultural",
+            "Social"
         ]
     },
     {
@@ -3929,9 +3935,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Spiritual",
-            "Service and Changemaking",
-            "Health Professions"
+            "Mindfulness",
+            "Meditation",
+            "Service and Changemaking"
         ]
     },
     {
@@ -3942,10 +3948,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Minority Association of Pre-Medical Students",
-            "MAPS",
-            "is committed to supporting current and future underrepresented minority pre-health professions",
-            "addressing the needs of the underserved at UC San Diego and its surrounding communities and increasing the number of academic"
+            "Health Professions",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -3958,7 +3963,7 @@
         "nlp_tags": [
             "Israel",
             "Jewish",
-            "campus"
+            "campus community"
         ]
     },
     {
@@ -3970,8 +3975,8 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -3982,9 +3987,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
+            "Mock Trial",
             "Law",
-            "Advocacy",
-            "Mock Trial"
+            "Advocacy"
         ]
     },
     {
@@ -3995,9 +4000,9 @@
             "Social"
         ],
         "nlp_tags": [
+            "Political Science",
             "International Relations",
-            "Model United Nations",
-            "Global Citizenship"
+            "Model United Nations"
         ]
     },
     {
@@ -4008,9 +4013,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Political Science",
-            "Economics"
+            "Law",
+            "Moot Court",
+            "Undergraduate"
         ]
     },
     {
@@ -4021,9 +4026,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Environmental Science",
             "Biology",
-            "Chemistry"
+            "Chemistry",
+            "Earth Science"
         ]
     },
     {
@@ -4034,9 +4039,9 @@
             "Student Affirmative Actions Committee"
         ],
         "nlp_tags": [
-            "Biology",
-            "Chemistry",
-            "Earth Science"
+            "M.E.Ch.A.: Cultural",
+            "Social",
+            "Political Science"
         ]
     },
     {
@@ -4049,7 +4054,7 @@
         "nlp_tags": [
             "Musical",
             "Theatre",
-            "Broadway"
+            "Student Organization."
         ]
     },
     {
@@ -4073,9 +4078,9 @@
             "Greek Sorority"
         ],
         "nlp_tags": [
-            "service and changemaking",
-            "leadership",
-            "community service"
+            "Service and Changemaking",
+            "Cultural",
+            "Language"
         ]
     },
     {
@@ -4087,8 +4092,8 @@
         ],
         "nlp_tags": [
             "Art",
-            "Computer Science",
-            "Engineering"
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4113,8 +4118,8 @@
         ],
         "nlp_tags": [
             "Music",
-            "Health Professions",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Health Professions"
         ]
     },
     {
@@ -4127,7 +4132,9 @@
         "nlp_tags": [
             "Environmental Science",
             "Sustainability",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Cultural",
+            "Spiritual."
         ]
     },
     {
@@ -4151,9 +4158,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Islam",
-            "Social Justice",
-            "Student Organizations"
+            "Muslim Student Association",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4165,8 +4172,8 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Social",
-            "Cultural"
+            "Cultural",
+            "Spiritual"
         ]
     },
     {
@@ -4177,9 +4184,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Nanotechnology",
-            "Science",
-            "Engineering"
+            "Computer Science",
+            "Engineering",
+            "Nanoengineering"
         ]
     },
     {
@@ -4190,9 +4197,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Residential Life",
-            "Service and Changemaking",
-            "Cultural"
+            "Residence Hall",
+            "National",
+            "Honorary"
         ]
     },
     {
@@ -4205,7 +4212,7 @@
         "nlp_tags": [
             "Computer Science",
             "Engineering",
-            "Service and Changemaking"
+            "Mathematics"
         ]
     },
     {
@@ -4217,8 +4224,8 @@
         ],
         "nlp_tags": [
             "Leadership",
-            "Service and Changemaking",
-            "Social"
+            "Professional development",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4229,9 +4236,9 @@
             "Student Affirmative Actions Committee"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Service and Changemaking",
-            "Spiritual"
+            "Native American Student Alliance: Cultural",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4257,7 +4264,10 @@
         "nlp_tags": [
             "Biology",
             "Chemistry",
-            "service and Changemaking"
+            "Earth Science",
+            "Health Professions",
+            "Psychology",
+            "Political Science"
         ]
     },
     {
@@ -4268,9 +4278,7 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Engineering",
-            "Neuroscience"
+            "Neuroengineering,Computer Science,Engineering"
         ]
     },
     {
@@ -4281,9 +4289,9 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Mathematics",
-            "Engineering"
+            "Spiritual",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -4296,7 +4304,7 @@
         "nlp_tags": [
             "Sports",
             "Social",
-            "Cultural"
+            "Service and Changemaking"
         ]
     },
     {
@@ -4309,7 +4317,7 @@
         "nlp_tags": [
             "Cultural",
             "Social",
-            "Language"
+            "Service and Changemaking"
         ]
     },
     {
@@ -4322,7 +4330,7 @@
         "nlp_tags": [
             "Japanese American",
             "Japanese",
-            "Culture"
+            "Cultural"
         ]
     },
     {
@@ -4333,9 +4341,9 @@
             "Greek Fraternity"
         ],
         "nlp_tags": [
-            "Diversity",
             "Brotherhood",
-            "Sisterhood."
+            "Social",
+            "Cultural"
         ]
     },
     {
@@ -4346,9 +4354,9 @@
             "Martial Arts/Combatives/Weaponry"
         ],
         "nlp_tags": [
+            "Okinawa Karate",
             "Sports",
-            "Cultural",
-            "Service and Changemaking"
+            "Cultural."
         ]
     },
     {
@@ -4361,7 +4369,7 @@
         "nlp_tags": [
             "Health Professions",
             "Service and Changemaking",
-            "Cultural."
+            "Spiritual"
         ]
     },
     {
@@ -4373,8 +4381,8 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Cultural",
-            "Spiritual."
+            "Social",
+            "Language"
         ]
     },
     {
@@ -4385,9 +4393,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Computer Science",
             "Political Science",
-            "Economics"
+            "Economics",
+            "History"
         ]
     },
     {
@@ -4396,9 +4404,9 @@
         "description": "The mission of the Operations & Supply Chain Club is to translate educational learning into real-world experiential knowledge in the areas of operations, strategic planning, and supply chain management through: \r\n-Moderated panels of industry professionals\r\n-Local company treks \r\n-Case competition/Simulations\r\n-Informal mixers with current students and alumni",
         "tags": [],
         "nlp_tags": [
-            "Operations",
-            "Supply Chain Management",
-            "Business and Management"
+            "Business and Management",
+            "Computer Science",
+            "Engineering"
         ]
     },
     {
@@ -4411,7 +4419,7 @@
         "nlp_tags": [
             "Orienteering",
             "Sports",
-            "Environmental Science"
+            "Language"
         ]
     },
     {
@@ -4423,8 +4431,8 @@
         ],
         "nlp_tags": [
             "Origami",
-            "Japan",
-            "Mathematics"
+            "Mathematics",
+            "Engineering"
         ]
     },
     {
@@ -4436,8 +4444,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "Music"
+            "Mathematics",
+            "Psychology"
         ]
     },
     {
@@ -4448,9 +4456,9 @@
             "Media"
         ],
         "nlp_tags": [
-            "Creative writing",
-            "student publications",
-            "campus-wide."
+            "Creative Writing",
+            "Art",
+            "Technology"
         ]
     },
     {
@@ -4461,9 +4469,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "youth empowerment",
+            "Youth empowerment",
             "community building",
-            "leadership development"
+            "democratic engagement"
         ]
     },
     {
@@ -4474,9 +4482,11 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Computer Science",
+            "oSTEM",
+            "Science",
+            "Technology",
             "Engineering",
-            "Math"
+            "Mathematics"
         ]
     },
     {
@@ -4500,8 +4510,8 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Community",
-            "Cultural",
+            "PISA: Cultural",
+            "Social",
             "Service and Changemaking"
         ]
     },
@@ -4514,8 +4524,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Business and Management",
-            "Engineering"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -4527,8 +4537,8 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Service and Changemaking",
-            "Social"
+            "History",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4539,9 +4549,18 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
-            "Organization",
-            "Student",
-            "Panhellenic"
+            "Panhellenic Council",
+            "Alpha Chi Omega",
+            "Alpha Epsilon Phi",
+            "Alpha Omicron Pi",
+            "Alpha Phi",
+            "Chi Omega",
+            "Delta Delta Delta",
+            "Delta Gamma",
+            "Kappa Alpha Theta",
+            "Kappa Kappa Gamma",
+            "Phi Sigma Rho",
+            "Pi"
         ]
     },
     {
@@ -4552,9 +4571,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Spiritual",
-            "Service and Changemaking",
-            "Cultural"
+            "Biology",
+            "Chemistry",
+            "Earth Science"
         ]
     },
     {
@@ -4565,9 +4584,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Parenting",
-            "Family",
-            "Caregiving"
+            "Parents and Caregivers",
+            "Service and Changemaking",
+            "Social."
         ]
     },
     {
@@ -4592,8 +4611,8 @@
         ],
         "nlp_tags": [
             "Public Health",
-            "Students of Color",
-            "Paths in Public Health"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -4604,9 +4623,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Sports",
-            "Service and Changemaking",
-            "Spiritual"
+            "School spirit",
+            "Social",
+            "Cultural."
         ]
     },
     {
@@ -4619,7 +4638,7 @@
         "nlp_tags": [
             "Cultural",
             "History",
-            "Social"
+            "Language"
         ]
     },
     {
@@ -4656,9 +4675,9 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Mathematics",
-            "Economics"
+            "Phi Gamma Delta",
+            "Student Athletes",
+            "Student Leaders"
         ]
     },
     {
@@ -4669,9 +4688,9 @@
             "Greek Fraternity"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Social",
-            "Service and Changemaking"
+            "Computer Science",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -4682,9 +4701,9 @@
             "Greek Sorority"
         ],
         "nlp_tags": [
-            "Chicano and Latino culture",
-            "community service",
-            "academic excellence"
+            "Chicano and Latino Studies",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -4696,7 +4715,7 @@
         ],
         "nlp_tags": [
             "Honor Fraternity",
-            "Scholarship",
+            "Scholarships",
             "Leadership"
         ]
     },
@@ -4722,8 +4741,8 @@
         ],
         "nlp_tags": [
             "Photography",
-            "friendship",
-            "instruction."
+            "Art",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4734,9 +4753,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Optics",
-            "Photonics",
-            "Engineering"
+            "Optics and Photonics",
+            "Engineering",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4747,9 +4766,9 @@
             "Panhellenic Association"
         ],
         "nlp_tags": [
-            "Computer Science",
             "Service and Changemaking",
-            "Math"
+            "Social",
+            "Cultural"
         ]
     },
     {
@@ -4762,7 +4781,7 @@
         "nlp_tags": [
             "Sports",
             "Service and Changemaking",
-            "Cultural"
+            "Spiritual"
         ]
     },
     {
@@ -4773,9 +4792,9 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
+            "Pi Kappa Phi",
             "Service and Changemaking",
-            "Spiritual",
-            "Cultural"
+            "Leadership"
         ]
     },
     {
@@ -4788,7 +4807,7 @@
         "nlp_tags": [
             "Sports",
             "Service and Changemaking",
-            "Cultural."
+            "Social"
         ]
     },
     {
@@ -4799,9 +4818,9 @@
             "Health Professions"
         ],
         "nlp_tags": [
-            "Pilipinx American",
-            "health professions",
-            "service and changemaking."
+            "Health Professions",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4827,7 +4846,7 @@
         "nlp_tags": [
             "Political Science",
             "Economics",
-            "History"
+            "Language"
         ]
     },
     {
@@ -4851,9 +4870,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Health Professions",
-            "Service and Changemaking",
-            "Cultural"
+            "Pre-Dental",
+            "Healthcare",
+            "Service and Changemaking"
         ]
     },
     {
@@ -4891,8 +4910,8 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Cultural",
-            "Health Professions"
+            "Health Professions",
+            "Social"
         ]
     },
     {
@@ -4904,8 +4923,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -4916,9 +4935,10 @@
             "Health Professions"
         ],
         "nlp_tags": [
+            "Pre-Pharmacy Society",
             "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Biology",
+            "Chemistry"
         ]
     },
     {
@@ -4929,9 +4949,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Pre-Veterinary Student Association",
-            "UCSD",
-            "Veterinary Medicine"
+            "Biology",
+            "Chemistry",
+            "Health Professions"
         ]
     },
     {
@@ -4955,9 +4975,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Computer Science",
             "Business and Management",
-            "Engineering"
+            "Computer Science",
+            "Language"
         ]
     },
     {
@@ -4968,9 +4988,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Computer Science",
             "Service and Changemaking",
-            "Health Professions",
-            "Social"
+            "Health Professions"
         ]
     },
     {
@@ -4982,7 +5002,7 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
+            "Service and Changemaking",
             "Engineering"
         ]
     },
@@ -4994,9 +5014,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Business and Management",
-            "Engineering"
+            "Career path",
+            "presentations",
+            "high school students"
         ]
     },
     {
@@ -5008,8 +5028,8 @@
         ],
         "nlp_tags": [
             "Environmental Science",
-            "Sustainability",
-            "Service and Changemaking"
+            "Agriculture",
+            "Sustainability"
         ]
     },
     {
@@ -5044,9 +5064,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Social",
-            "Spiritual"
+            "Psychedelics",
+            "Club",
+            "Community"
         ]
     },
     {
@@ -5055,8 +5075,8 @@
         "description": "PH-GO is a health profession organization that seeks to engage UCSD graduate students with the common goal of learning, promoting, and addressing public health issues.",
         "tags": [],
         "nlp_tags": [
-            "Public Health",
             "Health Professions",
+            "Public Health",
             "Service and Changemaking"
         ]
     },
@@ -5094,7 +5114,7 @@
         "nlp_tags": [
             "Dance",
             "Cultural",
-            "Service and Changemaking"
+            "Social"
         ]
     },
     {
@@ -5131,9 +5151,9 @@
             "Student Affirmative Actions Committee"
         ],
         "nlp_tags": [
-            "Cultural",
+            "Diversity",
             "Social",
-            "Service and Changemaking"
+            "Cultural"
         ]
     },
     {
@@ -5145,8 +5165,8 @@
         ],
         "nlp_tags": [
             "LGBTQIA+",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5157,9 +5177,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "queer",
-            "lgbtq",
-            "scripps"
+            "LGBTQIA",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5194,9 +5214,9 @@
         "description": "The purpose of RDAC is to provide a platform on which grad students interested in data analytics can congregate. We actively seek ways to help our members expand their knowledge and connect with key industry leaders through seminars and other professional events. RDAC is open to UCSD grad students of all backgrounds, regardless of their previous experiences and previous exposure to the field of data analytics, and we encourage anyone interested in data analytics to sign up with us!",
         "tags": [],
         "nlp_tags": [
-            "Data Analytics",
             "Computer Science",
-            "Mathematics"
+            "Service and Changemaking",
+            "Math"
         ]
     },
     {
@@ -5218,7 +5238,7 @@
         "nlp_tags": [
             "Computer Science",
             "Business and Management",
-            "Economics"
+            "Psychology"
         ]
     },
     {
@@ -5230,8 +5250,8 @@
         ],
         "nlp_tags": [
             "Business and Management",
-            "Economics",
-            "Finance"
+            "Rady School of Management",
+            "UCSD"
         ]
     },
     {
@@ -5257,7 +5277,7 @@
         "nlp_tags": [
             "Spiritual",
             "Service and Changemaking",
-            "Cultural."
+            "Cultural"
         ]
     },
     {
@@ -5268,9 +5288,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "service and changemaking",
-            "cultural",
-            "spiritual"
+            "Motorcycling",
+            "Cars",
+            "Safety"
         ]
     },
     {
@@ -5280,8 +5300,8 @@
         "tags": [],
         "nlp_tags": [
             "Robotics",
-            "computer science",
-            "engineering."
+            "Computer Science",
+            "Engineering"
         ]
     },
     {
@@ -5306,8 +5326,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "History"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5333,7 +5353,7 @@
         "nlp_tags": [
             "Service and Changemaking",
             "Leadership",
-            "Networking"
+            "Professional Development"
         ]
     },
     {
@@ -5357,9 +5377,9 @@
             "Social"
         ],
         "nlp_tags": [
+            "Mathematics",
             "Computer Science",
-            "Engineering",
-            "Math"
+            "Engineering"
         ]
     },
     {
@@ -5397,8 +5417,8 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -5409,9 +5429,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Jewish",
-            "cultural",
-            "service and changemaking"
+            "Spiritual",
+            "Cultural",
+            "Service and Changemaking"
         ]
     },
     {
@@ -5422,9 +5442,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Tutoring",
             "Service and Changemaking",
-            "Cultural",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -5435,9 +5455,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "beach volleyball",
-            "recreation",
-            "sports"
+            "Sports",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5449,8 +5469,8 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -5485,7 +5505,7 @@
         "nlp_tags": [
             "Science",
             "STEM",
-            "Competition."
+            "Competition"
         ]
     },
     {
@@ -5496,7 +5516,8 @@
         "nlp_tags": [
             "Environmental Science",
             "Biology",
-            "Chemistry"
+            "Chemistry",
+            "Earth Science"
         ]
     },
     {
@@ -5507,9 +5528,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Scripps Student Symposium",
-            "Student Research",
-            "Student Collaboration"
+            "Scripps Institution of Oceanography",
+            "Biological Sciences",
+            "Environmental Sciences"
         ]
     },
     {
@@ -5546,8 +5567,8 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Computer Science",
             "Service and Changemaking",
-            "Cultural",
             "Health Professions"
         ]
     },
@@ -5559,9 +5580,9 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Spiritual"
+            "Biology",
+            "Chemistry",
+            "Earth Science"
         ]
     },
     {
@@ -5573,8 +5594,8 @@
         ],
         "nlp_tags": [
             "Sorority",
-            "Civil Action",
-            "Social Action"
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -5587,7 +5608,7 @@
         "nlp_tags": [
             "Sorority",
             "Friendship",
-            "Culture"
+            "Social"
         ]
     },
     {
@@ -5599,8 +5620,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Sports",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Sports"
         ]
     },
     {
@@ -5611,9 +5632,9 @@
             "Greek Sorority"
         ],
         "nlp_tags": [
+            "Computer Science",
             "Service and Changemaking",
-            "Cultural",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -5624,9 +5645,9 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Service and Changemaking",
-            "Social"
+            "Biology",
+            "Chemistry",
+            "Earth Science"
         ]
     },
     {
@@ -5638,8 +5659,8 @@
         ],
         "nlp_tags": [
             "Chicana/Latina",
-            "service and changemaking",
-            "cultural"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5650,8 +5671,8 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Spiritual",
-            "Cultural",
+            "Sikhism",
+            "Community",
             "Service and Changemaking"
         ]
     },
@@ -5665,7 +5686,7 @@
         "nlp_tags": [
             "Singaporean",
             "UCSD",
-            "home"
+            "Service and Changemaking"
         ]
     },
     {
@@ -5677,8 +5698,8 @@
         ],
         "nlp_tags": [
             "Music",
-            "Cultural",
-            "Social"
+            "Social",
+            "Cultural"
         ]
     },
     {
@@ -5690,7 +5711,7 @@
         ],
         "nlp_tags": [
             "Dance",
-            "Service and Changemaking",
+            "Social",
             "Cultural"
         ]
     },
@@ -5702,9 +5723,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Art",
-            "History",
-            "Social"
+            "Social",
+            "Cultural",
+            "Service and Changemaking"
         ]
     },
     {
@@ -5713,9 +5734,9 @@
         "description": "SLIPS aims to provide an inclusive environment for underrepresented Latino students in the school of Physical Sciences",
         "tags": [],
         "nlp_tags": [
-            "Diversity",
-            "Inclusion",
-            "Underrepresented Groups"
+            "Physical Sciences",
+            "Latino",
+            "Inclusive"
         ]
     },
     {
@@ -5724,9 +5745,9 @@
         "description": "Our mission is to foster a community for inspiring the pursuit of gender equality in STEM.",
         "tags": [],
         "nlp_tags": [
-            "Gender Equality",
+            "Gender equality",
             "STEM",
-            "Service and Changemaking"
+            "Community"
         ]
     },
     {
@@ -5737,9 +5758,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Computer Science",
             "Business and Management",
-            "Engineering"
+            "Language",
+            "Finance"
         ]
     },
     {
@@ -5762,8 +5783,8 @@
         ],
         "nlp_tags": [
             "Engineering",
-            "Community Service",
-            "Outreach"
+            "Service and Changemaking",
+            "Community Service"
         ]
     },
     {
@@ -5788,8 +5809,8 @@
         ],
         "nlp_tags": [
             "Physics",
-            "Social",
-            "Service and Changemaking."
+            "Mathematics",
+            "Chemistry"
         ]
     },
     {
@@ -5800,7 +5821,7 @@
         "nlp_tags": [
             "Math",
             "Computer Science",
-            "Economics"
+            "Engineering"
         ]
     },
     {
@@ -5812,8 +5833,8 @@
         ],
         "nlp_tags": [
             "Engineering",
-            "Women",
-            "Diversity"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5824,9 +5845,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Computer Science",
+            "STEM",
             "Service and Changemaking",
-            "Math"
+            "Social"
         ]
     },
     {
@@ -5837,7 +5858,7 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Public Speaking",
+            "Speech and Debate",
             "Persuasive Argumentation",
             "Research"
         ]
@@ -5851,8 +5872,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5876,9 +5897,9 @@
             "Cultural"
         ],
         "nlp_tags": [
+            "Sri Lankan Student Association",
             "Cultural",
-            "Service and Changemaking",
-            "Social"
+            "Service and Changemaking"
         ]
     },
     {
@@ -5890,8 +5911,8 @@
         ],
         "nlp_tags": [
             "Star Wars",
-            "Social",
-            "Service and Changemaking"
+            "social events",
+            "discussions."
         ]
     },
     {
@@ -5915,9 +5936,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Transition Resources for Adult Community Education",
             "Service and Changemaking",
-            "Cultural",
-            "Social."
+            "Cultural"
         ]
     },
     {
@@ -5930,7 +5951,7 @@
         "nlp_tags": [
             "Cancer",
             "Chronic Disease",
-            "Support"
+            "Health Professions"
         ]
     },
     {
@@ -5942,8 +5963,8 @@
         ],
         "nlp_tags": [
             "Health Professions",
-            "Social",
-            "service and changemaking"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -5956,7 +5977,7 @@
         "nlp_tags": [
             "Student Involvement",
             "Leadership",
-            "Consulting"
+            "Consultants"
         ]
     },
     {
@@ -5978,9 +5999,9 @@
         "description": "Our purpose is to promote global health undergraduate student collaboration by striving to advance student\u2019s knowledge, opportunities, and careers in the field. We uphold an interdisciplinary alliance with diverse majors, staff, faculty, and organizations around the globe. We also promote and educate members of our club and school on illness, health, and healing, through perspectives that transcend national borders and regional interests.",
         "tags": [],
         "nlp_tags": [
-            "Health Professions",
-            "Social",
-            "Service and Changemaking"
+            "Global Health",
+            "Undergraduate Student",
+            "Interdisciplinary"
         ]
     },
     {
@@ -5991,7 +6012,7 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Open Access",
+            "Open Access Publication",
             "Student Voice",
             "Accessibility"
         ]
@@ -6004,9 +6025,9 @@
             "Political"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Psychology",
-            "Political Science"
+            "Chemistry",
+            "Biology",
+            "Psychology"
         ]
     },
     {
@@ -6017,9 +6038,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Space science",
-            "Rocket science",
-            "3D printing"
+            "Space Exploration",
+            "Rocket Science",
+            "3D Printing"
         ]
     },
     {
@@ -6030,8 +6051,8 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Computer Science",
             "Service and Changemaking",
-            "Cultural",
             "Health Professions"
         ]
     },
@@ -6056,9 +6077,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Sports",
+            "Surf Club: Sports",
             "Service and Changemaking",
-            "Cultural"
+            "Cultural."
         ]
     },
     {
@@ -6084,7 +6105,7 @@
         "nlp_tags": [
             "Music",
             "Social",
-            "Service and Changemaking"
+            "Cultural"
         ]
     },
     {
@@ -6096,8 +6117,8 @@
         ],
         "nlp_tags": [
             "Sports",
-            "Social",
-            "Service and Changemaking."
+            "Service and Changemaking",
+            "Spiritual"
         ]
     },
     {
@@ -6121,9 +6142,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Social",
-            "Cultural",
-            "Service and Changemaking"
+            "Taiwanese",
+            "Asian",
+            "Cultural"
         ]
     },
     {
@@ -6135,8 +6156,8 @@
         ],
         "nlp_tags": [
             "Cultural",
-            "Service and Changemaking",
-            "Dance"
+            "Dance",
+            "Social"
         ]
     },
     {
@@ -6146,8 +6167,8 @@
         "tags": [],
         "nlp_tags": [
             "Engineering",
-            "Honor Society",
-            "Public Service"
+            "Service and Changemaking",
+            "Spiritual"
         ]
     },
     {
@@ -6159,7 +6180,7 @@
         ],
         "nlp_tags": [
             "Service and Changemaking",
-            "Social",
+            "Cultural",
             "Spiritual"
         ]
     },
@@ -6171,9 +6192,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Transfer Students",
-            "Academic Achievement",
-            "University Involvement"
+            "Computer Science",
+            "Service and Changemaking",
+            "Language"
         ]
     },
     {
@@ -6186,7 +6207,9 @@
         "nlp_tags": [
             "Tea",
             "Club",
-            "Spiritual"
+            "Emotional Health",
+            "Physical Health",
+            "Spiritual Health"
         ]
     },
     {
@@ -6198,8 +6221,8 @@
         ],
         "nlp_tags": [
             "Public Health",
-            "Service and Changemaking",
-            "Cultural"
+            "Teamwork",
+            "Service and Changemaking"
         ]
     },
     {
@@ -6209,8 +6232,8 @@
         "tags": [],
         "nlp_tags": [
             "Computer Science",
-            "Technology",
-            "Guest Lectures"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -6234,9 +6257,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Service and Changemaking",
-            "Social"
+            "Biology",
+            "Chemistry",
+            "Computer Science"
         ]
     },
     {
@@ -6247,9 +6270,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Cultural",
-            "Service and Changemaking",
-            "History"
+            "Computer Science",
+            "Language",
+            "Cultural"
         ]
     },
     {
@@ -6262,7 +6285,7 @@
         "nlp_tags": [
             "Cultural",
             "Service and Changemaking",
-            "Language"
+            "Spiritual"
         ]
     },
     {
@@ -6286,8 +6309,8 @@
             "Spiritual"
         ],
         "nlp_tags": [
-            "Theology",
-            "Catholicism",
+            "Philosophy",
+            "Religion",
             "Thomas Aquinas"
         ]
     },
@@ -6300,8 +6323,8 @@
         ],
         "nlp_tags": [
             "Theme park design",
-            "Engineering",
-            "Themed Entertainment Association"
+            "engineering",
+            "Themed Entertainment Association."
         ]
     },
     {
@@ -6313,8 +6336,8 @@
         ],
         "nlp_tags": [
             "Engineering",
-            "Social",
-            "Professional Development"
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -6326,8 +6349,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Service and Changemaking",
-            "Math"
+            "Mathematics",
+            "Engineering"
         ]
     },
     {
@@ -6365,8 +6388,8 @@
         ],
         "nlp_tags": [
             "Music",
-            "Service and Changemaking",
-            "Cultural"
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -6379,7 +6402,7 @@
         "nlp_tags": [
             "Fashion",
             "Media",
-            "Student Opportunities"
+            "Industry"
         ]
     },
     {
@@ -6390,9 +6413,9 @@
             "Interfraternity Council (IFC)"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Social",
-            "Cultural"
+            "Brotherhood",
+            "Triangle Code of Ethics",
+            "Social"
         ]
     },
     {
@@ -6405,7 +6428,7 @@
         "nlp_tags": [
             "Music",
             "Social",
-            "Service and Changemaking"
+            "Cultural"
         ]
     },
     {
@@ -6418,7 +6441,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -6429,9 +6452,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Automobiles",
-            "Motor Sports",
-            "Service and Changemaking"
+            "Automotive",
+            "Engineering",
+            "Chemistry"
         ]
     },
     {
@@ -6442,9 +6465,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Aviation",
-            "Private Pilot",
-            "Ground School"
+            "Computer Science",
+            "Service and Changemaking",
+            "Language"
         ]
     },
     {
@@ -6456,7 +6479,8 @@
         ],
         "nlp_tags": [
             "Sports",
-            "Fitness",
+            "Strength Sports",
+            "Powerlifting",
             "Weightlifting"
         ]
     },
@@ -6468,9 +6492,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Brain Injury",
             "Service and Changemaking",
-            "Computer Science",
-            "Psychology"
+            "Health Professions"
         ]
     },
     {
@@ -6483,7 +6507,7 @@
         "nlp_tags": [
             "Business and Management",
             "Economics",
-            "Computer Science"
+            "Language"
         ]
     },
     {
@@ -6508,8 +6532,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "History"
+            "Destiny",
+            "Gaming"
         ]
     },
     {
@@ -6519,8 +6543,8 @@
         "tags": [],
         "nlp_tags": [
             "Engineering",
-            "Computer Science",
-            "Mathematics"
+            "Student Organizations",
+            "Community"
         ]
     },
     {
@@ -6533,7 +6557,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Social"
+            "Cultural"
         ]
     },
     {
@@ -6546,7 +6570,7 @@
         "nlp_tags": [
             "Food",
             "Community",
-            "Cooking"
+            "Cooking."
         ]
     },
     {
@@ -6558,8 +6582,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "History"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -6571,8 +6595,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "History"
+            "Business and Management",
+            "Economics"
         ]
     },
     {
@@ -6583,9 +6607,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Jewish Student Life",
-            "UC San Diego",
-            "Social Activism"
+            "Jewish Life",
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -6596,9 +6620,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Super Smash Bros.",
-            "Melee",
-            "UCSD"
+            "Computer Science",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -6607,9 +6631,9 @@
         "description": "Triton NeuroTech is the premier neurotech organization at UCSD and a registered chapter of NeuroTechX, an international neurotech organization. We aim to foster a community of students, industry professionals, and academic professionals to incubate interest in neuroengineering. We aim to accomplish this in three parts: (1) organize technical teams to build human-centric projects, (2) host workshops and talks to spread neurotech knowledge, and (3) centralize a network of professionals for those interested in the field.",
         "tags": [],
         "nlp_tags": [
-            "neuroengineering",
-            "computer science",
-            "psychology"
+            "Neuroengineering",
+            "Computer Science",
+            "Biology"
         ]
     },
     {
@@ -6622,7 +6646,7 @@
         "nlp_tags": [
             "Philosophy",
             "Discussion",
-            "Events."
+            "Events"
         ]
     },
     {
@@ -6633,8 +6657,8 @@
             "Social"
         ],
         "nlp_tags": [
-            "Computer Science",
             "Art",
+            "Computer Science",
             "Service and Changemaking"
         ]
     },
@@ -6647,8 +6671,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "History"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -6696,9 +6720,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Sports",
-            "Service and Changemaking"
+            "Super Smash Bros",
+            "Nintendo Switch",
+            "Competitive Fighting"
         ]
     },
     {
@@ -6711,7 +6735,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Service"
+            "Engineering"
         ]
     },
     {
@@ -6722,9 +6746,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Engineering",
-            "Mathematics"
+            "Environmental Science",
+            "Chemistry",
+            "Computer Science"
         ]
     },
     {
@@ -6733,8 +6757,8 @@
         "description": "Student Project Team for the 2023 Orange County Sustainability Decathlon; Engineering affordable and sustainable housing to meet the demands of a growing population",
         "tags": [],
         "nlp_tags": [
-            "Engineering",
             "Sustainability",
+            "Engineering",
             "Computer Science"
         ]
     },
@@ -6746,9 +6770,9 @@
             "Social"
         ],
         "nlp_tags": [
+            "Roundnet",
             "Sports",
-            "Service and Changemaking",
-            "Cultural"
+            "Service and Changemaking"
         ]
     },
     {
@@ -6760,8 +6784,8 @@
         ],
         "nlp_tags": [
             "Computer Science",
-            "Art",
-            "History"
+            "Service and Changemaking",
+            "Social"
         ]
     },
     {
@@ -6774,7 +6798,7 @@
         "nlp_tags": [
             "Sustainability",
             "Service and Changemaking",
-            "Cultural"
+            "Environmental Science"
         ]
     },
     {
@@ -6785,7 +6809,7 @@
         "nlp_tags": [
             "Computer Science",
             "Engineering",
-            "Business and Management"
+            "Mathematics"
         ]
     },
     {
@@ -6796,9 +6820,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Space",
-            "Technology",
-            "CubeSats"
+            "Computer Science",
+            "Engineering",
+            "Mathematics"
         ]
     },
     {
@@ -6823,8 +6847,8 @@
         ],
         "nlp_tags": [
             "Film",
-            "Social",
-            "Inclusive"
+            "Inclusive",
+            "Students"
         ]
     },
     {
@@ -6835,9 +6859,9 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Middle East",
-            "pro-Israel",
-            "culture"
+            "Pro-Israel",
+            "Education",
+            "Culture"
         ]
     },
     {
@@ -6848,9 +6872,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Service and Changemaking",
-            "Social"
+            "Recovery",
+            "Harm Reduction",
+            "Substance Use"
         ]
     },
     {
@@ -6861,9 +6885,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Sports",
-            "Cultural",
-            "Service and Changemaking"
+            "Roller skating",
+            "community",
+            "inclusivity"
         ]
     },
     {
@@ -6874,9 +6898,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Sports",
-            "Service and Changemaking",
-            "Cultural."
+            "Computer Science",
+            "Art",
+            "Sports"
         ]
     },
     {
@@ -6902,7 +6926,7 @@
         "nlp_tags": [
             "Cultural",
             "Social",
-            "Service and Changemaking"
+            "Turkish"
         ]
     },
     {
@@ -6913,9 +6937,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Cultural",
-            "History",
-            "Social"
+            "Turkish culture",
+            "UC San Diego",
+            "Changemaking"
         ]
     },
     {
@@ -6926,9 +6950,9 @@
             "Political"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Economics",
-            "Political Science"
+            "Finance",
+            "Political Science",
+            "Economics"
         ]
     },
     {
@@ -6939,9 +6963,10 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Spiritual"
+            "Tzu Chi Collegiate Association at UC San Diego is a non-profit student organization",
+            "which aims to inspire college-level students in the mindful practice of the Tzu Chi Foundation\u2019s principles of Gratitude",
+            "Respect",
+            "and"
         ]
     },
     {
@@ -6961,9 +6986,7 @@
         "description": "UBIC is a non-profit organization whose purpose is to serve bioinformatics undergraduates by providing resources for students entering the growing discipline; furthering access to job, internship, and research opportunities; facilitating an open forum for discussion, collaboration, and socialization; holding events and meetings; and acting as a collective voice for bioinformatics students at UCSD.",
         "tags": [],
         "nlp_tags": [
-            "Computer Science",
-            "Biology",
-            "Chemistry"
+            "Bioinformatics,Computer Science,Biology"
         ]
     },
     {
@@ -6974,9 +6997,9 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Business and Management",
-            "Psychology"
+            "Communication",
+            "Professionalism",
+            "Connection."
         ]
     },
     {
@@ -6988,8 +7011,8 @@
         ],
         "nlp_tags": [
             "Economics",
-            "Finance",
-            "Political Science"
+            "Political Science",
+            "Computer Science"
         ]
     },
     {
@@ -7001,8 +7024,8 @@
         ],
         "nlp_tags": [
             "History",
-            "Service and Changemaking",
-            "Cultural"
+            "Undergraduate",
+            "Student"
         ]
     },
     {
@@ -7024,7 +7047,7 @@
             "Pre-professional"
         ],
         "nlp_tags": [
-            "Legal",
+            "Law",
             "Academic",
             "Career"
         ]
@@ -7036,8 +7059,8 @@
         "tags": [],
         "nlp_tags": [
             "Economics",
-            "Computer Science",
-            "Engineering"
+            "Political Science",
+            "Math"
         ]
     },
     {
@@ -7050,7 +7073,7 @@
         "nlp_tags": [
             "Computer Science",
             "Service and Changemaking",
-            "Social"
+            "Cultural."
         ]
     },
     {
@@ -7061,9 +7084,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Cultural",
             "Service and Changemaking",
-            "Social"
+            "Cultural",
+            "Spiritual"
         ]
     },
     {
@@ -7074,9 +7097,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Asian culture",
-            "Social",
-            "Service and Changemaking"
+            "Computer Science",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -7102,7 +7125,7 @@
         "nlp_tags": [
             "Computer Science",
             "Art",
-            "Service and Changemaking"
+            "Math"
         ]
     },
     {
@@ -7115,7 +7138,7 @@
         "nlp_tags": [
             "Cultural",
             "Social",
-            "Service and Changemaking"
+            "Educational"
         ]
     },
     {
@@ -7127,8 +7150,8 @@
         ],
         "nlp_tags": [
             "Sustainability",
-            "Environmental Science",
-            "Service and Changemaking"
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -7139,9 +7162,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Service and Changemaking",
-            "Cultural",
-            "Social."
+            "Women Empowerment",
+            "Education",
+            "Service and Changemaking"
         ]
     },
     {
@@ -7180,7 +7203,7 @@
         "nlp_tags": [
             "Business and Management",
             "Leadership",
-            "Women in Business"
+            "Social"
         ]
     },
     {
@@ -7215,9 +7238,9 @@
             "Cultural"
         ],
         "nlp_tags": [
-            "Women",
-            "Middle East",
-            "North African"
+            "Women's Empowerment",
+            "Middle Eastern and North African Studies",
+            "Safe Space"
         ]
     },
     {
@@ -7229,9 +7252,8 @@
         ],
         "nlp_tags": [
             "Business and Management",
-            "Equity",
-            "Diversity",
-            "and Inclusion"
+            "Economics",
+            "Language"
         ]
     },
     {
@@ -7244,7 +7266,7 @@
         "nlp_tags": [
             "Sports",
             "Social",
-            "Service and Changemaking."
+            "Cultural."
         ]
     },
     {
@@ -7256,8 +7278,8 @@
         ],
         "nlp_tags": [
             "Women's Empowerment",
-            "Service and Changemaking",
-            "Cultural"
+            "Social",
+            "Service and Changemaking"
         ]
     },
     {
@@ -7268,9 +7290,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
+            "Words Uncaged",
             "Service and Changemaking",
-            "Cultural",
-            "Spiritual"
+            "Cultural"
         ]
     },
     {
@@ -7281,9 +7303,9 @@
             "Martial Arts/Combatives/Weaponry"
         ],
         "nlp_tags": [
-            "Sports",
             "Martial Arts",
-            "Service and Changemaking"
+            "Physical Fitness",
+            "Community Building"
         ]
     },
     {
@@ -7294,9 +7316,9 @@
             "Service and Changemaking"
         ],
         "nlp_tags": [
-            "Environmental Science",
             "Biology",
-            "Chemistry"
+            "Chemistry",
+            "Computer Science"
         ]
     },
     {
@@ -7307,9 +7329,9 @@
             "Political"
         ],
         "nlp_tags": [
-            "Politics",
-            "Social Justice",
-            "Biology"
+            "Political Science",
+            "Social",
+            "Economics"
         ]
     },
     {
@@ -7320,9 +7342,9 @@
             "Social"
         ],
         "nlp_tags": [
-            "Yoga",
-            "Stress Relief",
-            "Body Movement"
+            "Spiritual",
+            "Service and Changemaking",
+            "Cultural"
         ]
     },
     {
@@ -7333,7 +7355,7 @@
         "nlp_tags": [
             "Computer Science",
             "Engineering",
-            "Mathematics"
+            "Earth Science"
         ]
     },
     {
@@ -7344,9 +7366,7 @@
             "Educational"
         ],
         "nlp_tags": [
-            "Computer Science",
-            "Engineering",
-            "Mathematics"
+            "Robotics,Computer Science,Engineering"
         ]
     },
     {
@@ -7383,5 +7403,6 @@
         "nlp_tags": [
             "Dance"
         ]
+        
     }
 ]

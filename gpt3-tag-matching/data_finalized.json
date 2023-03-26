@@ -676,7 +676,7 @@
         "description": "The purpose of Architecture at UC San Diego is to create an inclusive community for undergraduate students of all majors who are interested in architecture. The organization seeks to provide a pre-professional platform for students of different backgrounds to gain hands-on experience and knowledge about the field of architecture. Through a team project each year, members can learn to apply critical thinking, creativity, interpersonal and team working skills, and knowledge in architecture, urban planning, and more. All of which leads up to the presentation of our Campus Redesign proposal UC San Diego Campus Planning.",
         "tags": [],
         "nlp_tags": [],
-        "final_tags": []
+        "final_tags": ["educational"]
     },
     {
         "name": "Armenian Student Association",
@@ -1532,7 +1532,7 @@
         "description": "The Challenger Research Journal Committee (CRJC) aims to further the access and representation of underrepresented students through the dissemination of research produced by scholars participating in the Undergraduate Research Hub programs at UC San Diego. The purpose of the CRJC is to organize, implement, and maintain a scholarly research journal that represents diverse perspectives across multiple fields of study.",
         "tags": [],
         "nlp_tags": [],
-        "final_tags": []
+        "final_tags": ["educational"]
     },
     {
         "name": "Chancellor's Scholars Alliance",
@@ -6974,7 +6974,7 @@
         "description": "Science Olympiad at UC San Diego is an org with the purpose of introducing high school students to UC San Diego, and the world of STEM, both in general, and at UCSD. We are a volunteer based organization that aims to host an invitational Science Olympiad competition at UC San Diego and allow students to gain scientific insight at one of the biggest schools in Southern California.",
         "tags": [],
         "nlp_tags": [],
-        "final_tags": []
+        "final_tags": ["educational"]
     },
     {
         "name": "Scripps Education Association",
@@ -7254,7 +7254,7 @@
         "description": "SLIPS aims to provide an inclusive environment for underrepresented Latino students in the school of Physical Sciences",
         "tags": [],
         "nlp_tags": [],
-        "final_tags": []
+        "final_tags": ["educational"]
     },
     {
         "name": "Society for Women in Graduate Studies in Chemistry and Biochemistry",
@@ -7591,7 +7591,7 @@
         "description": "Our purpose is to promote global health undergraduate student collaboration by striving to advance student\u2019s knowledge, opportunities, and careers in the field. We uphold an interdisciplinary alliance with diverse majors, staff, faculty, and organizations around the globe. We also promote and educate members of our club and school on illness, health, and healing, through perspectives that transcend national borders and regional interests.",
         "tags": [],
         "nlp_tags": [],
-        "final_tags": []
+        "final_tags": ["educational"]
     },
     {
         "name": "Students for Open Access",
@@ -8819,7 +8819,7 @@
         "description": "UBIC is a non-profit organization whose purpose is to serve bioinformatics undergraduates by providing resources for students entering the growing discipline; furthering access to job, internship, and research opportunities; facilitating an open forum for discussion, collaboration, and socialization; holding events and meetings; and acting as a collective voice for bioinformatics students at UCSD.",
         "tags": [],
         "nlp_tags": [],
-        "final_tags": []
+        "final_tags": ["educational", "biology"]
     },
     {
         "name": "Undergraduate Communication Society",
