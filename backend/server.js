@@ -1,39 +1,40 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const data = require("./data.json");
+const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+
+const organizationsController = require("./controllers/organizations");
+
+dotenv.config();
 
 const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
 
-app.post("/api/search/name-and-description", (req, res) => {
-  const { queries } = req.body;
-
-  const results = data.filter((org) =>
-    queries.some(
-      (query) =>
-        org.name.toLowerCase().includes(query.toLowerCase()) ||
-        org.description.toLowerCase().includes(query.toLowerCase())
-    )
-  );
-
-  res.json(results);
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
-app.post("/api/search/tags", (req, res) => {
-  const { queries } = req.body;
-
-  const results = data.filter((org) =>
-    queries.some(
-      (query) =>
-        org.final_tags.includes(query)
-    )
-  );
-
-  res.json(results);
+const db = mongoose.connection;
+db.on("error", console.error.bind(console, "connection error:"));
+db.once("open", () => {
+  console.log("Connected to MongoDB database");
 });
+
+// get all organizations
+app.get("/api/organizations", organizationsController.getOrganizations);
+
+// searching within the organizations' name and description
+app.post( "/api/search/name-and-description", organizationsController.searchByNameAndDescription);
+
+// searching within the organizations' tags
+app.post("/api/search/tags", organizationsController.searchByTags);
+
+// upvoting a certain organization by id
+app.put("/api/organizations/:id/upvote", organizationsController.upvoteOrganization);
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
