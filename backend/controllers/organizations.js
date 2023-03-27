@@ -1,66 +1,66 @@
 const Organization = require("../models/Organization");
+const jwt = require("jsonwebtoken");
 
-module.exports = {
-  getOrganizations: async (req, res) => {
-    try {
-      const organizations = await Organization.find();
-      res.json(organizations);
-    } catch (err) {
-      res.status(500).json({ message: err.message });
-    }
-  },
-  searchByNameAndDescription: async (req, res) => {
-    const { queries } = req.body;
-  
-    // Join the queries with '|' to create a regular expression
-    const regex = new RegExp(queries.join('|'), 'i');
-  
-    try {
-      const organizations = await Organization.find({
-        $or: [
-          { name: { $regex: regex } },
-          { description: { $regex: regex } },
-        ],
-      });
-  
-      console.log(`Found ${organizations.length} organizations`);
-  
-      res.json(organizations);
-    } catch (err) {
-      console.error(err);
-      res.status(500).json({ message: err.message });
-    }
-  },  
-  
-  searchByTags: async (req, res) => {
-    const { queries } = req.body;
+exports.getOrganizations = async (req, res) => {
+  try {
+    const organizations = await Organization.find().sort({ upvotes: -1 });
+    res.json(organizations);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
+  }
+};
 
-    try {
-      const organizations = await Organization.find({
-        final_tags: { $in: queries },
-      });
-      res.json(organizations);
-    } catch (err) {
-      res.status(500).json({ message: err.message });
-    }
-  },
-  upvoteOrganization: async (req, res) => {
-    const { id } = req.params;
+exports.searchByNameAndDescription = async (req, res) => {
+  const { searchTerm } = req.body;
+  try {
+    const organizations = await Organization.find({
+      $or: [
+        { name: { $regex: searchTerm, $options: "i" } },
+        { description: { $regex: searchTerm, $options: "i" } },
+      ],
+    }).sort({ upvotes: -1 });
+    res.json(organizations);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
+  }
+};
 
-    try {
-      const organization = await Organization.findOneAndUpdate(
-        { id },
-        { $inc: { upvote_count: 1 } },
-        { new: true }
-      );
+exports.searchByTags = async (req, res) => {
+  const { tags } = req.body;
+  try {
+    const organizations = await Organization.find({ tags: { $in: tags } }).sort(
+      { upvotes: -1 }
+    );
+    res.json(organizations);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
+  }
+};
 
-      if (!organization) {
-        res.status(404).json({ message: "Organization not found" });
-      } else {
-        res.json(organization);
-      }
-    } catch (err) {
-      res.status(500).json({ message: err.message });
-    }
-  },
+exports.upvoteOrganization = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const organization = await Organization.findById(id);
+    organization.upvotes++;
+    await organization.save();
+    res.json(organization);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
+  }
+};
+
+exports.authenticate = (req, res, next) => {
+  const authHeader = req.headers.authorization;
+  const token = authHeader && authHeader.split(" ")[1];
+  if (token == null) return res.sendStatus(401);
+
+  jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => {
+    if (err) return res.sendStatus(403);
+    req.user = user;
+    next();
+  });
 };
