@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+const authRoutes = require('./routes/auth-routes')
 
 const organizationsController = require("./controllers/organizations");
 
@@ -41,3 +42,5 @@ const port = process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
+
+app.use(authRoutes);
