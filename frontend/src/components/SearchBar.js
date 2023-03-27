@@ -171,6 +171,7 @@ function SearchBar() {
               description={org.description}
               link={org.link}
               final_tags={org.final_tags}  
+              upvotes={org.upvote_count}
             />
           })
         )

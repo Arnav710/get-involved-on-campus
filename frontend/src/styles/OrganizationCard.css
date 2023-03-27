@@ -10,7 +10,20 @@
   }
   
   .org-box:hover {
-    background-color: gray;
+    background-color: black;
     color: white;
-    cursor: pointer;
+  }
+
+  .link-logo{
+    height: 50px;
+    width: 50px;
+  }
+
+  .link-container{
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .bottom-row{
+    display: flex;
   }
