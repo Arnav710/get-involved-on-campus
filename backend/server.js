@@ -14,13 +14,9 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.use(cors({
-  origin: "http://localhost:3000",
-  optionsSuccessStatus: 200
-}));
+app.use(cors());
 
-
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect("mongodb+srv://Arnav:PozWW4Dd1M5EKJem@cluster0.c0tz94h.mongodb.net/test", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   connectTimeoutMS: 40000, // increase connect timeout to 30 seconds
