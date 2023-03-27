@@ -14,8 +14,7 @@
     text-align: center;
     margin-top: 2rem;
     background: linear-gradient(to right, #00d2ff, #3a7bd5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
   }
   
   h2 {
