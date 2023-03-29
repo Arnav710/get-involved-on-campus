@@ -64,3 +64,10 @@ exports.login = async (req, res) => {
     return res.status(500).json({ message: "Error logging in" });
   }
 };
+
+exports.logout = async (req, res) => {
+  req.session.accessToken = null;
+  
+  // Send a success response
+  res.status(200).send({ message: "Logged out successfully" });
+}

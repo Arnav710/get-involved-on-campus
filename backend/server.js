@@ -31,6 +31,8 @@ db.once("open", () => {
 // authentication routes
 app.post("/api/signup", authController.signup);
 app.post("/api/login", authController.login);
+app.post('/logout', authController.logout);
+
 
 // middleware to verify token
 const verifyToken = (req, res, next) => {

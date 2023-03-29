@@ -12,12 +12,13 @@ exports.getOrganizations = async (req, res) => {
 };
 
 exports.searchByNameAndDescription = async (req, res) => {
-  const { searchTerm } = req.body;
+  const { queries } = req.body;
   try {
+    const regexQueries = queries.map(query => new RegExp(query, 'i'));
     const organizations = await Organization.find({
       $or: [
-        { name: { $regex: searchTerm, $options: "i" } },
-        { description: { $regex: searchTerm, $options: "i" } },
+        { name: { $in: regexQueries } },
+        { description: { $in: regexQueries } },
       ],
     }).sort({ upvotes: -1 });
     res.json(organizations);
@@ -27,10 +28,12 @@ exports.searchByNameAndDescription = async (req, res) => {
   }
 };
 
+
+
 exports.searchByTags = async (req, res) => {
-  const { tags } = req.body;
+  const { queries } = req.body;
   try {
-    const organizations = await Organization.find({ tags: { $in: tags } }).sort(
+    const organizations = await Organization.find({ final_tags: { $in: queries } }).sort(
       { upvotes: -1 }
     );
     res.json(organizations);
@@ -39,6 +42,9 @@ exports.searchByTags = async (req, res) => {
     res.status(500).send("Server Error");
   }
 };
+
+
+
 
 exports.upvoteOrganization = async (req, res) => {
   const { id } = req.params;
