@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 import '../styles/Login.css'
+import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
@@ -10,12 +13,13 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://get-involved-on-campus-backend.onrender.com/api/login", { 
+      const response = await axios.post("http://localhost:4000/api/login", { 
         "username": username, 
         "password": password 
       });
       localStorage.setItem("accessToken", response.data.accessToken);
       setMessage("Login successful!");
+      setTimeout(() => navigate('/search'), 1500);
     } catch (error) {
       console.log(error);
       setMessage(error.response.data.message);
@@ -37,6 +41,10 @@ const Login = () => {
         <button type="submit" className="login-button">Login</button>
       </form>
       {message && <p>{message}</p>}
+
+      <div className='dont-have-account'>
+        <p>Don't have an account? <Link to="/signup">Signup</Link></p>
+      </div>
     </div>
   );
 };

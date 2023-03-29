@@ -15,8 +15,6 @@ function SearchBar() {
       { value: 'biology', label: 'biology '},
       { value: 'business and management', label: 'business and management '},
       { value: 'chemistry', label: 'chemistry '},
-      { value: 'community', label: 'community '},
-      { value: 'community service', label: 'community service '},
       { value: 'computer science', label: 'computer science '},
       { value: 'cooperative', label: 'cooperative '},
       { value: 'cultural', label: 'cultural '},
@@ -82,8 +80,8 @@ function SearchBar() {
     console.log('Form was submitted!');
 
     const REST_API_ENDPOINT = (searchBy === 'name') ? 
-      'https://get-involved-on-campus-backend.onrender.com/api/search/name-and-description' : 
-      'https://get-involved-on-campus-backend.onrender.com/api/search/tags';
+      'http://localhost:4000/api/search/name-and-description' : 
+      'http://localhost:4000/api/search/tags';
 
     let value = (searchBy === 'name') ? searchText : selectedTag.label;
     value = value.trim();
@@ -132,14 +130,14 @@ function SearchBar() {
   return (
     <div className='outer'>
     <form className="select-container" onSubmit={handleSubmit}>
-      <h1>Get Involved.</h1>
+      <h1 className='heading'>Get Involved.</h1>
       <h2>Student Organizations @ UCSD</h2>
       <div className="search-options-container">
-        <div>
+        <div className='checkbox-container'>
           <input type="radio" id="search-by-name" name="search-by" value="name" checked={searchBy === 'name'} onChange={handleSearchByChange} />
           <label htmlFor="search-by-name">Search by Name</label>
         </div>
-        <div>
+        <div className='checkbox-container'>
           <input type="radio" id="search-by-tag" name="search-by" value="tag" checked={searchBy === 'tag'} onChange={handleSearchByChange} />
           <label htmlFor="search-by-tag">Search by Tag</label>
         </div>

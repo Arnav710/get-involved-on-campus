@@ -8,13 +8,14 @@
     width: 90%; /* set a default width of 90% */
   }
 
-  h1 {
+  .heading {
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
     margin-top: 2rem;
-    background: linear-gradient(to right, #00d2ff, #3a7bd5);
-
+    background: linear-gradient(to right, #3a7bd5, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   h2 {
@@ -37,18 +38,24 @@ flex-direction: column;
 align-items: center;
 }
 
+.checkbox-container{
+  display: flex;
+  gap: 10px
+}
+
 .search-options-container {
 display: flex;
 justify-content: center;
 gap: 75px;
 margin-bottom: 50px;
+width: 100%;
 }
 
 input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 20px;
+  width: 25px;
   height: 20px;
   border-radius: 20%;
   border: 2px solid #555;

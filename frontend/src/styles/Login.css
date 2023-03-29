@@ -50,12 +50,16 @@
     border-radius: 10px;
     cursor: pointer;
     height: 75px;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 300px;
   }
   
   .login-button:hover {
     background-color: black;
     color: white;
+  }
+
+  .dont-have-account{
+    margin-top: 20px;
   }
   
