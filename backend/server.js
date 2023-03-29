@@ -4,6 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const jwt = require("jsonwebtoken");
+const session = require('express-session');
 
 const organizationsController = require("./controllers/organizations");
 const authController = require("./controllers/auth");
@@ -15,6 +16,9 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(cors());
+
+app.use(session({ secret: '=ab6e96d52a29689d111a8f3b36ceb59fe1bba103', resave: false, saveUninitialized: false }));
+
 
 mongoose.connect("mongodb+srv://Arnav:PozWW4Dd1M5EKJem@cluster0.c0tz94h.mongodb.net/test", {
   useNewUrlParser: true,
@@ -31,7 +35,7 @@ db.once("open", () => {
 // authentication routes
 app.post("/api/signup", authController.signup);
 app.post("/api/login", authController.login);
-app.post('/logout', authController.logout);
+app.post('/api/logout', authController.logout);
 
 
 // middleware to verify token

@@ -65,9 +65,11 @@ exports.login = async (req, res) => {
   }
 };
 
-exports.logout = async (req, res) => {
-  req.session.accessToken = null;
-  
-  // Send a success response
-  res.status(200).send({ message: "Logged out successfully" });
-}
+exports.logout = (req, res) => {
+  if (req.session) {
+    req.session.accessToken = null;
+    res.status(200).json({ message: 'Logged out successfully' });
+  } else {
+    res.status(500).json({ message: 'Could not log out' });
+  }
+};
