@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect} from 'react';
 import Select from 'react-select';
 import './../styles/SearchBar.css';
 import OrganizationCard from './OrganizationCard'
+import Header from './Header.js';
 
 function SearchBar() {
   const [searchBy, setSearchBy] = useState('');
@@ -175,8 +176,9 @@ function SearchBar() {
         )
       }
     </div>
-
     {resData !== null && <div className='footer'></div>}
+
+    <Header />
     </div>
   );
 }
