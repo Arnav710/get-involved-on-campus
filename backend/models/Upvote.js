@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Upvote = new mongoose.Schema({
     postId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Post',
+        ref: 'Organization',
         required: true
     },
     upvotedBy: [{

@@ -8,6 +8,7 @@ const session = require('express-session');
 
 const organizationsController = require("./controllers/organizations");
 const authController = require("./controllers/auth");
+const upvoteController = require("./controllers/upvote")
 
 dotenv.config();
 
@@ -65,7 +66,7 @@ app.post( "/api/search/name-and-description", organizationsController.searchByNa
 app.post("/api/search/tags", organizationsController.searchByTags);
 
 // upvoting a certain organization by id
-app.put("/api/organizations/:id/upvote", verifyToken, organizationsController.upvoteOrganization);
+app.put("/api/organizations/upvote", verifyToken, upvoteController.upvoteOrganization);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {

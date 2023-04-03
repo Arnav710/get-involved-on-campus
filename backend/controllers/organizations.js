@@ -43,22 +43,6 @@ exports.searchByTags = async (req, res) => {
   }
 };
 
-
-
-
-exports.upvoteOrganization = async (req, res) => {
-  const { id } = req.params;
-  try {
-    const organization = await Organization.findById(id);
-    organization.upvotes++;
-    await organization.save();
-    res.json(organization);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).send("Server Error");
-  }
-};
-
 exports.authenticate = (req, res, next) => {
   const authHeader = req.headers.authorization;
   const token = authHeader && authHeader.split(" ")[1];
