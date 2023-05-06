@@ -4,12 +4,14 @@ import '../styles/Login.css'
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
+// this is the login page
 const Login = () => {
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
 
+  // handling the click of the login button
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
