@@ -27,3 +27,24 @@
   .bottom-row{
     display: flex;
   }
+
+  .upvote-button {
+    padding: 6px 6px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: #38cb82;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upvote-button:hover {
+    background-color: green;
+    cursor: pointer;
+  }
+  
+  .upvote-button:focus {
+    outline: none;
+  }

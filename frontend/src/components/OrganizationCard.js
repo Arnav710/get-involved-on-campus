@@ -3,6 +3,11 @@ import linkLogo from './../images/link-logo.png'
 import './../styles/OrganizationCard.css';
 
 function OrganizationCard({ name, description, link, final_tags, upvotes}) {
+
+    const handleUpvote = () => {
+
+    }
+
     return (
       <div className="org-box">
         <h3>{name}</h3>
@@ -14,10 +19,17 @@ function OrganizationCard({ name, description, link, final_tags, upvotes}) {
         </ul>
         <div className='bottom-row'>
           
+
+        <button className="upvote-button" onClick={handleUpvote}>
+            Upvote
+          </button>
+          
           <div>
             <image></image>
             <p>Upvote Count: {upvotes}</p>
           </div>
+
+          
         
           <div className='link-container'>
             <a href={link} target="_blank">
