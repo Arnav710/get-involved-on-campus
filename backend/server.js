@@ -66,7 +66,7 @@ app.post( "/api/search/name-and-description", organizationsController.searchByNa
 app.post("/api/search/tags", organizationsController.searchByTags);
 
 // upvoting a certain organization by id
-app.put("/api/organizations/upvote", verifyToken, upvoteController.upvoteOrganization);
+app.post("/api/organizations/upvote", upvoteController.upvoteOrganization);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {

@@ -3,43 +3,54 @@ const User = require('../models/User');
 const Organization = require('../models/Organization');
 
 exports.upvoteOrganization = async (req, res) => {
-    const { postId } = req.body;
-    const { userId } = req.body;
-  
-    try {
-        // Making appropriate changes to the upvote schema
-      const upvote = await Upvote.findOne({ postId });
-      if (upvote && upvote.upvotedBy.includes(userId)) {
-        return res.status(400).json({ message: 'Post already upvoted by user' });
-      }
-      else if (upvote) {
+  const { postId } = req.body;
+  const { userId } = req.body;
+
+  try {
+    const upvote = await Upvote.findOne({ postId });
+
+    if (upvote && upvote.upvotedBy.includes(userId)) {
+      // If the upvote exists and the user has already upvoted, remove the upvote
+
+      upvote.upvotedBy = upvote.upvotedBy.filter((id) => id !== userId);
+      await upvote.save();
+
+      const user = await User.findById(userId);
+      user.upvotedOrganizations = user.upvotedOrganizations.filter(
+        (id) => id !== postId
+      );
+      await user.save();
+
+      const organization = await Organization.findById(postId);
+      organization.upvote_count--;
+      await organization.save();
+
+      return res.status(200).json({ message: 'Post upvote removed successfully' });
+    } else {
+      // If the upvote doesn't exist or the user hasn't upvoted, add the upvote
+
+      if (upvote) {
         upvote.upvotedBy.push(userId);
         await upvote.save();
       } else {
         const newUpvote = new Upvote({ postId, upvotedBy: [userId] });
         await newUpvote.save();
       }
-  
-      let newUpvote = false;
 
-      // Making appropriate changes to the User schema
       const user = await User.findById(userId);
       if (!user.upvotedOrganizations.includes(postId)) {
         user.upvotedOrganizations.push(postId);
-        newUpvote = true;
         await user.save();
       }
-  
-      // incremenet the upvote_conunt of the organization
-      if (newUpvote){
-        const organization = await Organization.findById(postId);
-        organization.upvote_count++;
-        await organization.save();
-      }
-  
+
+      const organization = await Organization.findById(postId);
+      organization.upvote_count++;
+      await organization.save();
+
       return res.status(200).json({ message: 'Post upvoted successfully' });
-    } catch (error) {
-      console.error(error);
-      return res.status(500).json({ message: 'Internal server error' });
     }
-  };
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: 'Internal server error' });
+  }
+};
