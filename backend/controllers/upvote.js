@@ -1,7 +1,3 @@
-const Upvote = require('../models/Upvote');
-const User = require('../models/User');
-const Organization = require('../models/Organization');
-
 exports.upvoteOrganization = async (req, res) => {
   const { username, organization_name } = req.body;
 
@@ -26,9 +22,8 @@ exports.upvoteOrganization = async (req, res) => {
       if (organization) {
         organization.upvote_count--;
         await organization.save();
+        return res.status(200).json(organization);
       }
-
-      return res.status(200).json({ message: 'Post upvote removed successfully' });
     } else {
       // If the upvote doesn't exist or the user hasn't upvoted, add the upvote
 
@@ -49,12 +44,12 @@ exports.upvoteOrganization = async (req, res) => {
       const organization = await Organization.findOne({ name: organization_name });
       if (organization) {
         organization.upvote_count++;
-        console.log(organization);
         await organization.save();
+        return res.status(200).json(organization);
       }
-
-      return res.status(200).json({ message: 'Post upvoted successfully' });
     }
+
+    return res.status(404).json({ message: 'Organization not found' });
   } catch (error) {
     console.error(error);
     return res.status(500).json({ message: 'Internal server error' });
