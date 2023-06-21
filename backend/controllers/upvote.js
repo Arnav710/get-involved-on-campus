@@ -3,49 +3,55 @@ const User = require('../models/User');
 const Organization = require('../models/Organization');
 
 exports.upvoteOrganization = async (req, res) => {
-  const { postId } = req.body;
-  const { userId } = req.body;
+  const { username, organization_name } = req.body;
 
   try {
-    const upvote = await Upvote.findOne({ postId });
+    const upvote = await Upvote.findOne({ organization_name });
 
-    if (upvote && upvote.upvotedBy.includes(userId)) {
+    if (upvote && upvote.upvotedBy.includes(username)) {
       // If the upvote exists and the user has already upvoted, remove the upvote
 
-      upvote.upvotedBy = upvote.upvotedBy.filter((id) => id !== userId);
+      upvote.upvotedBy = upvote.upvotedBy.filter((name) => name !== username);
       await upvote.save();
 
-      const user = await User.findById(userId);
-      user.upvotedOrganizations = user.upvotedOrganizations.filter(
-        (id) => id !== postId
-      );
-      await user.save();
+      const user = await User.findOne({ username });
+      if (user) {
+        user.upvotedOrganizations = user.upvotedOrganizations.filter(
+          (name) => name !== organization_name
+        );
+        await user.save();
+      }
 
-      const organization = await Organization.findById(postId);
-      organization.upvote_count--;
-      await organization.save();
+      const organization = await Organization.findOne({ name: organization_name });
+      if (organization) {
+        organization.upvote_count--;
+        await organization.save();
+      }
 
       return res.status(200).json({ message: 'Post upvote removed successfully' });
     } else {
       // If the upvote doesn't exist or the user hasn't upvoted, add the upvote
 
       if (upvote) {
-        upvote.upvotedBy.push(userId);
+        upvote.upvotedBy.push(username);
         await upvote.save();
       } else {
-        const newUpvote = new Upvote({ postId, upvotedBy: [userId] });
+        const newUpvote = new Upvote({ organization_name, upvotedBy: [username] });
         await newUpvote.save();
       }
 
-      const user = await User.findById(userId);
-      if (!user.upvotedOrganizations.includes(postId)) {
-        user.upvotedOrganizations.push(postId);
+      const user = await User.findOne({ username });
+      if (user && !user.upvotedOrganizations.includes(organization_name)) {
+        user.upvotedOrganizations.push(organization_name);
         await user.save();
       }
 
-      const organization = await Organization.findById(postId);
-      organization.upvote_count++;
-      await organization.save();
+      const organization = await Organization.findOne({ name: organization_name });
+      if (organization) {
+        organization.upvote_count++;
+        console.log(organization);
+        await organization.save();
+      }
 
       return res.status(200).json({ message: 'Post upvoted successfully' });
     }

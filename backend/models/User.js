@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -10,8 +10,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  upvotedOrganizations: [{ type: mongoose.Schema.Types.ObjectId, ref: "Organization" }],
+  upvotedOrganizations: [{ type: String }],
 });
 
-
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model('User', userSchema);

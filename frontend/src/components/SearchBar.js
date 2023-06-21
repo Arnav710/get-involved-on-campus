@@ -127,33 +127,6 @@ function SearchBar() {
     }),
   };
 
-  // Fetch user details by username
-  const fetchUserDetails = async (username) => {
-    try {
-      const response = await fetch(`http://localhost:4000/api/get-user/${username}`);
-      const user = await response.json();
-
-      // Use the user object for further processing or rendering
-      console.log(user);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  // Get the user information from localStorage
-  const accessToken = localStorage.getItem("accessToken");
-
-  // Check if the user is logged in
-  if (accessToken) {
-    // Get the user's name from the access token
-    const decodedToken = JSON.parse(atob(accessToken.split('.')[1]));
-    const username = decodedToken.username;
-
-    // Call the fetchUserDetails function to fetch the user details
-    fetchUserDetails(username);
-  }
-
-
   return (
     <div className='outer'>
     <form className="select-container" onSubmit={handleSubmit}>
