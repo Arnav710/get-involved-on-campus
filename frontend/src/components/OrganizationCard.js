@@ -5,7 +5,9 @@ import './../styles/OrganizationCard.css';
 function OrganizationCard({ name, description, link, final_tags, upvote_param }) {
   const [isUpvoted, setIsUpvoted] = useState(false);
   const [upvotes, setUpvotes] = useState(upvote_param);
-
+  
+  console.log(upvote_param)
+  
   useEffect(() => {
     // Get the user information from localStorage
     const accessToken = localStorage.getItem('accessToken');
@@ -42,16 +44,16 @@ function OrganizationCard({ name, description, link, final_tags, upvote_param })
     try {
       // Toggle the upvoted state locally
       setIsUpvoted(!isUpvoted);
-  
+
       // Get the user information from localStorage
       const accessToken = localStorage.getItem('accessToken');
-  
+
       // Check if the user is logged in
       if (accessToken) {
         // Get the user's name from the access token
         const decodedToken = JSON.parse(atob(accessToken.split('.')[1]));
         const username = decodedToken.username;
-  
+
         // Perform the upvote action on the server
         const response = await fetch(`http://localhost:4000/api/organizations/upvote`, {
           method: 'POST',
@@ -63,18 +65,16 @@ function OrganizationCard({ name, description, link, final_tags, upvote_param })
             organization_name: name,
           }),
         });
-  
+
         const data = await response.json();
-        const updatedOrganization = data.organization;
-  
         // Update the upvotes state with the new upvote count from the updated organization
-        setUpvotes(updatedOrganization.upvote_count);
+        console.log(data.upvote_count);
+        setUpvotes(data.upvote_count);
       }
     } catch (error) {
       console.error(error);
     }
   };
-  
   
 
   return (
