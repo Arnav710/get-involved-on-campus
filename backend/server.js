@@ -9,6 +9,7 @@ const session = require('express-session');
 const organizationsController = require("./controllers/organizations");
 const authController = require("./controllers/auth");
 const upvoteController = require("./controllers/upvote")
+const userController = require('./controllers/user')
 
 dotenv.config();
 
@@ -67,6 +68,9 @@ app.post("/api/search/tags", organizationsController.searchByTags);
 
 // upvoting a certain organization by id
 app.post("/api/organizations/upvote", upvoteController.upvoteOrganization);
+
+// getting the information about a user by username
+app.get("/api/get-user/:username", userController.getUserByUsername);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
