@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import linkLogo from './../images/link-logo.png';
 import './../styles/OrganizationCard.css';
 
-function OrganizationCard({ name, description, link, final_tags, upvotes }) {
+function OrganizationCard({ name, description, link, final_tags, upvote_param }) {
   const [isUpvoted, setIsUpvoted] = useState(false);
+  const [upvotes, setUpvotes] = useState(upvote_param);
 
   useEffect(() => {
     // Get the user information from localStorage
@@ -52,7 +53,7 @@ function OrganizationCard({ name, description, link, final_tags, upvotes }) {
         const username = decodedToken.username;
   
         // Perform the upvote action on the server
-        await fetch(`http://localhost:4000/api/organizations/upvote`, {
+        const response = await fetch(`http://localhost:4000/api/organizations/upvote`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -62,6 +63,12 @@ function OrganizationCard({ name, description, link, final_tags, upvotes }) {
             organization_name: name,
           }),
         });
+  
+        const data = await response.json();
+        const updatedOrganization = data.organization;
+  
+        // Update the upvotes state with the new upvote count from the updated organization
+        setUpvotes(updatedOrganization.upvote_count);
       }
     } catch (error) {
       console.error(error);

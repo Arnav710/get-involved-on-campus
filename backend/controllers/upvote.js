@@ -1,3 +1,7 @@
+const Upvote = require('../models/Upvote')
+const User = require('../models/User')
+const Organization = require('../models/Organization')
+
 exports.upvoteOrganization = async (req, res) => {
   const { username, organization_name } = req.body;
 
